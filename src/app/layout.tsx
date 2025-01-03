@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Mali } from "next/font/google";
-import ThemeToggle from "@/components/ThemeToggle";
+import { Providers } from "./providers";
+import ThemeSwitch from "@/components/ThemeSwitch";
 
 // Import font Mali
 const mali = Mali({
@@ -20,9 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={mali.className}>
+    <html lang="en" className={mali.className} suppressHydrationWarning>
       <body>
-        <div>{children}</div>
+        <Providers>
+          <div className="p-4 border border-black">
+            <ThemeSwitch />
+          </div>
+          <div>{children}</div>
+        </Providers>
       </body>
     </html>
   );
