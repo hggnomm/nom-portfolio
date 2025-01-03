@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Mali } from "next/font/google";
+import ThemeToggle from "@/components/ThemeToggle";
+
+// Import font Mali
+const mali = Mali({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Nam Tran Hoang",
@@ -12,12 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="bg-mainBackground flex w-[60%] h-screen justify-center items-start mx-auto py-5">
-        <div className="w-1/4 p-4 shadow-md font-semibold">
-          <h2 className="text-whiteColor">Sidebar</h2>
-        </div>
-        <div className="w-2/3 p-4">{children}</div>
+    <html lang="en" className={mali.className}>
+      <body>
+        <div>{children}</div>
       </body>
     </html>
   );
