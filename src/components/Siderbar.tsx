@@ -23,12 +23,12 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="flex flex-col items-center mx-auto">
+    <div className="flex flex-col items-center mx-auto relative">
       {/* Hggnomm */}
       <div className="flex mt-6">
         <Link
           href={"/"}
-          className="flex w-full justify-center items-center py-6  gap-3 md:gap-6 lg:gap-7 relative"
+          className="flex w-full justify-center items-center py-6 gap-3 md:gap-6 lg:gap-7 relative"
         >
           <div className="relative border-2 lg:border-4 border-primary-color rounded-full w-20 h-20 lg:w-24 lg:h-24 bg-[#A0A0A0] overflow-hidden">
             <Image
@@ -49,10 +49,11 @@ export default function Sidebar() {
         </Link>
       </div>
 
-      <div className="flex gap-[10px]">
+      {/* ThemeSwitch and LanguageSwitch */}
+      <div className="absolute top-5 right-5 flex gap-[10px]">
         <ThemeSwitch />
-        <LanguageSwitch />
       </div>
+      <LanguageSwitch />
 
       {/* Layout nav bar */}
       <div className="w-full mt-4">
@@ -94,7 +95,7 @@ export default function Sidebar() {
           </Link>
         </div>
 
-        {/* Button 4  */}
+        {/* Button 4 */}
         <div className="relative w-full">
           <div
             onClick={() => handleClick(3)}
@@ -132,7 +133,7 @@ export default function Sidebar() {
           </Link>
         </div>
 
-        {/* Button 7 + Black Button 5  */}
+        {/* Button 7 + Black Button 5 */}
         <div className="relative w-full">
           <div
             onClick={() => handleClick(6)}
@@ -146,7 +147,7 @@ export default function Sidebar() {
           </Link>
         </div>
 
-        {/* Button 8  */}
+        {/* Button 8 */}
         <div className="relative w-full">
           <div
             onClick={() => handleClick(7)}

@@ -12,22 +12,29 @@ export default function LanguageSwitch() {
     routing.locales.find((locale) => pathname.startsWith(`/${locale}`)) ||
     routing.defaultLocale;
 
-  const changeLanguage = () => {
-    const nextLocale = routing.locales.find(
-      (locale) => locale !== currentLocale
-    );
+  const changeLanguage = (locale: string) => {
+    if (locale === currentLocale) return;
 
     // Tạo URL mới với locale được chọn
-    const newPathname = pathname.replace(`/${currentLocale}`, `/${nextLocale}`);
+    const newPathname = pathname.replace(`/${currentLocale}`, `/${locale}`);
     router.push(`${newPathname}?${searchParams.toString()}`);
   };
 
   return (
-    <button
-      onClick={changeLanguage}
-      className="bg-white dark:bg-black px-3 py-1 min-w-12 border rounded-lg select-none"
-    >
-      {currentLocale.toUpperCase()}
-    </button>
+    <div className="flex gap-2">
+      {routing.locales.map((locale) => (
+        <button
+          key={locale}
+          onClick={() => changeLanguage(locale)}
+          className={`px-3 py-1 border rounded ${
+            locale === currentLocale
+              ? "bg-amber-300"
+              : "bg-primary-color dark:bg-secondary-black dark:text-white"
+          }`}
+        >
+          {locale.toUpperCase()}
+        </button>
+      ))}
+    </div>
   );
 }

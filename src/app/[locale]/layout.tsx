@@ -39,8 +39,8 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={mali.className} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
+        <Providers>
+          <NextIntlClientProvider messages={messages}>
             <div className="w-full flex h-screen bg-primary-color dark:bg-secondary-black ">
               <div className="w-[100%] lg:w-[65%] flex mx-auto">
                 <div className="w-[30%] bg-main-black">
@@ -51,8 +51,8 @@ export default async function RootLayout({
                 </div>
               </div>
             </div>
-          </Providers>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );
