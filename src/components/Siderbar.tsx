@@ -3,14 +3,15 @@
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
 import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
+import { useState } from "react";
 
 export default function Sidebar() {
-  const [activeButtons, setActiveButtons] = useState(Array(13).fill(false));
+  const [activeButtons, setActiveButtons] = useState(Array(8).fill(false));
+  const pathname = usePathname();
   const t = useTranslations("SiderBar");
-
   const handleClick = (index: any) => {
     const newActiveButtons = [...activeButtons];
     newActiveButtons[index] = true;
@@ -22,9 +23,12 @@ export default function Sidebar() {
     }, 250);
   };
 
+  // Remove '/en' from the pathname
+  const normalizedPathname = pathname.replace(/\/(en|vi)\b/g, "");
+
   return (
     <div className="flex flex-col items-center mx-auto relative">
-      {/* Hggnomm */}
+      {/* User Profile Section */}
       <div className="flex mt-6">
         <Link
           href={"/"}
@@ -60,7 +64,7 @@ export default function Sidebar() {
       </div>
       <LanguageSwitch />
 
-      {/* Layout nav bar */}
+      {/* Layout Navigation Bar */}
       <div className="w-full mt-4">
         {/* Button 1 */}
         <div className="relative w-full">
@@ -78,7 +82,11 @@ export default function Sidebar() {
           ></div>
           <Link
             href="/about"
-            className={`button-black absolute top-[-37%] right-0 active:bg-black`}
+            className={`${
+              normalizedPathname === "/about"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
           >
             <p className="text-base lg:text-lg font-semibold">{t("about")}</p>
           </Link>
@@ -92,7 +100,11 @@ export default function Sidebar() {
           ></div>
           <Link
             href="/experiences"
-            className={`button-black absolute top-[-37%] right-0 active:bg-black`}
+            className={`${
+              normalizedPathname === "/experiences"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
           >
             <p className="text-base lg:text-lg font-semibold">
               {t("experiences")}
@@ -116,7 +128,11 @@ export default function Sidebar() {
           ></div>
           <Link
             href="/blogs"
-            className={`button-black absolute top-[-37%] right-0 active:bg-black`}
+            className={`${
+              normalizedPathname === "/blogs"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
           >
             <p className="text-base lg:text-lg font-semibold">{t("blogs")}</p>
           </Link>
@@ -130,7 +146,11 @@ export default function Sidebar() {
           ></div>
           <Link
             href="/projects"
-            className={`button-black absolute top-[-37%] right-0 active:bg-black`}
+            className={`${
+              normalizedPathname === "/projects"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
           >
             <p className="text-base lg:text-lg font-semibold">
               {t("projects")}
@@ -146,7 +166,11 @@ export default function Sidebar() {
           ></div>
           <Link
             href="/contact"
-            className={`button-black absolute top-[-37%] right-0 active:bg-black`}
+            className={`${
+              normalizedPathname === "/contact"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
           >
             <p className="text-base lg:text-lg font-semibold">{t("contact")}</p>
           </Link>

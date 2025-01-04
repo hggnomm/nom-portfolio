@@ -21,4 +21,9 @@
   .button-black {
     @apply w-[70%] lg:w-[60%] h-9 lg:h-11 bg-secondary-black border border-black text-primary-color text-center flex items-center justify-start pl-2 lg:pl-6 cursor-pointer;
   }
+
+  .button-black-active {
+    @apply w-[70%] lg:w-[58%] h-9 lg:h-11 bg-black border border-black text-primary-color text-center flex items-center justify-start pl-2 lg:pl-6 cursor-pointer;
+    @apply shadow-[rgba(0,_0,_0,_0.25)_-4px_0px_8px];
+  }
 }
