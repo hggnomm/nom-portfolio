@@ -41,12 +41,12 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            <div className="w-full flex h-screen bg-main-white dark:bg-secondary-black ">
+            <div className="w-full flex h-screen bg-primary-color dark:bg-secondary-black ">
               <div className="w-[100%] lg:w-[65%] flex mx-auto">
                 <div className="w-[30%] bg-main-black">
                   <Siderbar />
                 </div>
-                <div className="w-[70%] bg-main-white dark:bg-secondary-black">
+                <div className="w-[70%] bg-primary-color dark:bg-secondary-black">
                   {children}
                 </div>
               </div>

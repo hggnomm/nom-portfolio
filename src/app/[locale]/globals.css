@@ -6,13 +6,12 @@
   --primary-color: #fdf7f4;
   --secondary-color: #000;
   --main-black: #131010;
-  --main-White: #fdf7f4;
   --secondary-black: #242424;
 }
 
 @layer components {
   .button {
-    @apply w-full h-12 lg:h-14 bg-white border border-black relative cursor-pointer;
+    @apply w-full h-12 lg:h-14 bg-primary-color border border-black relative cursor-pointer;
   }
 
   .button-active {
@@ -20,6 +19,6 @@
   }
 
   .button-black {
-    @apply w-[70%] lg:w-[60%] h-9 lg:h-11 bg-secondary-black border border-black text-white text-center flex items-center justify-start pl-2 lg:pl-6 cursor-pointer;
+    @apply w-[70%] lg:w-[60%] h-9 lg:h-11 bg-secondary-black border border-black text-primary-color text-center flex items-center justify-start pl-2 lg:pl-6 cursor-pointer;
   }
 }
