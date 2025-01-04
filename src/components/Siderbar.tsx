@@ -44,7 +44,7 @@ export default function Sidebar() {
             href="/about"
             className={`button-black absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-lg font-semibold">{t("about")}</p>
+            <p className="text-base lg:text-lg font-semibold">{t("about")}</p>
           </Link>
         </div>
 
@@ -58,7 +58,7 @@ export default function Sidebar() {
             href="/experiences"
             className={`button-black absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-lg font-semibold">{t("experiences")}</p>
+            <p className="text-base lg:text-lg font-semibold">{t("experiences")}</p>
           </Link>
         </div>
 
@@ -80,7 +80,7 @@ export default function Sidebar() {
             href="/blogs"
             className={`button-black absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-lg font-semibold">{t("blogs")}</p>
+            <p className="text-base lg:text-lg font-semibold">{t("blogs")}</p>
           </Link>
         </div>
 
@@ -94,7 +94,7 @@ export default function Sidebar() {
             href="/projects"
             className={`button-black absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-lg font-semibold">{t("projects")}</p>
+            <p className="text-base lg:text-lg font-semibold">{t("projects")}</p>
           </Link>
         </div>
 
@@ -108,7 +108,7 @@ export default function Sidebar() {
             href="/contact"
             className={`button-black absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-lg font-semibold">{t("contact")}</p>
+            <p className="text-base lg:text-lg font-semibold">{t("contact")}</p>
           </Link>
         </div>
 
