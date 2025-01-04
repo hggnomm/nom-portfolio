@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import LanguageSwitch from "@/components/LanguageSwitch";
 
 // Import font Mali
 const mali = Mali({
@@ -42,6 +43,7 @@ export default async function RootLayout({
           <Providers>
             <div className="p-4 border border-black">
               <ThemeSwitch />
+              <LanguageSwitch />
             </div>
             <div>{children}</div>
           </Providers>
