@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { getTranslations } from "next-intl/server";
 
 export default function HomePage() {
   // server request async stuff ==> below code

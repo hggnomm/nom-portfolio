@@ -26,9 +26,9 @@ export default function LanguageSwitch() {
         <button
           key={locale}
           onClick={() => changeLanguage(locale)}
-          className={`px-3 py-1 border rounded ${
+          className={`px-[12px] py-[2px] border rounded ${
             locale === currentLocale
-              ? "bg-amber-300"
+              ? "bg-blue-600 border-b-4 border-blue-300 text-white" // Dấu gạch dưới cho nút hiện tại
               : "bg-primary-color dark:bg-secondary-black dark:text-white"
           }`}
         >

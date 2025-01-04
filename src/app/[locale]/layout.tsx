@@ -2,12 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Mali } from "next/font/google";
 import { Providers } from "../../providers";
-import ThemeSwitch from "@/components/ThemeSwitch";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
-import LanguageSwitch from "@/components/LanguageSwitch";
 import Siderbar from "@/components/Siderbar";
 
 const mali = Mali({

@@ -36,14 +36,19 @@ export default function Sidebar() {
               alt="Hggnomm"
               objectFit="cover"
               layout="fill"
+              className="hover:scale-105 transition-transform"
             />
           </div>
-          <img
+          <Image
             src="/curved-arrow.svg"
             alt="Curved Arrow"
-            className="absolute top-4 w-8 h-8 lg:w-12 lg:h-12 transform rotate-[-135deg] fill-white"
+            className="absolute top-4 w-8 h-8 lg:w-12 lg:h-12 transform rotate-[-135deg] 
+            hover:scale-105 hover:rotate-[-145deg] 
+            transition-transform duration-500 ease-in-out"
+            width={40}
+            height={40}
           />
-          <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold">
+          <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold hover:scale-105 transition-transform">
             Đây là Nam
           </p>
         </Link>
