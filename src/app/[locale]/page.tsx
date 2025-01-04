@@ -1,14 +1,12 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { getTranslations } from "next-intl/server";
 
 export default function HomePage() {
-
   // server request async stuff ==> below code
   // const t = await getTranslations("Homepage")
 
   const t = useTranslations("HomePage");
-  return ( 
+  return (
     <div>
       <h1>{t("title")}</h1>
       <Link href="/about">{t("about")}</Link>

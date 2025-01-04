@@ -1,4 +1,11 @@
 {
+  "SiderBar": {
+    "about": "About Me",
+    "experiences": "Experiences",
+    "blogs": "My Blogs",
+    "contact": "Contact",
+    "projects": "Projects"
+  },
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"

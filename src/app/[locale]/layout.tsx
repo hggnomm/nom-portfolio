@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Mali } from "next/font/google";
-import { Providers } from "./providers";
-import ThemeSwitch from "@/components/ThemeSwitch";
+import { Providers } from "../../providers";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
-import LanguageSwitch from "@/components/LanguageSwitch";
+import Siderbar from "@/components/Siderbar";
 
-// Import font Mali
 const mali = Mali({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -39,15 +37,20 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={mali.className} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <div className="p-4 border border-black">
-              <ThemeSwitch />
-              <LanguageSwitch />
+        <Providers>
+          <NextIntlClientProvider messages={messages}>
+            <div className="w-full flex h-screen bg-primary-color dark:bg-secondary-black ">
+              <div className="w-[100%] lg:w-[65%] flex mx-auto">
+                <div className="w-[30%] bg-main-black">
+                  <Siderbar />
+                </div>
+                <div className="w-[70%] bg-primary-color dark:bg-secondary-black">
+                  {children}
+                </div>
+              </div>
             </div>
-            <div>{children}</div>
-          </Providers>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

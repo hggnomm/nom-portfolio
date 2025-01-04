@@ -26,8 +26,10 @@ export default function LanguageSwitch() {
         <button
           key={locale}
           onClick={() => changeLanguage(locale)}
-          className={`px-3 py-1 border rounded ${
-            locale === currentLocale ? "bg-blue-500 text-white" : "bg-gray-200"
+          className={`px-[12px] py-[2px] border rounded ${
+            locale === currentLocale
+              ? "bg-blue-600 border-b-4 border-blue-300 text-white" // Dấu gạch dưới cho nút hiện tại
+              : "bg-primary-color dark:bg-secondary-black dark:text-white"
           }`}
         >
           {locale.toUpperCase()}
