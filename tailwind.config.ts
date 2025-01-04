@@ -12,6 +12,9 @@ const config: Config = {
       colors: {
         "primary-color": "var(--primary-color)",
         "secondary-color": "var(--secondary-color)",
+        "main-black": "var(--main-black)",
+        "main-white": "var(--main-white)",
+        "secondary-black": "var(--secondary-black)",
       },
     },
   },

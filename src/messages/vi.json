@@ -1,4 +1,11 @@
 {
+  "SiderBar": {
+    "about": "Về Tui",
+    "experiences": "Kinh Nghiệm",
+    "blogs": "Blog Tui Viết",
+    "contact": "Liên Hệ",
+    "projects": "Dự Án Riêng"
+  },
   "HomePage": {
     "title": "Xin chào",
     "about": "Đến trang about"
