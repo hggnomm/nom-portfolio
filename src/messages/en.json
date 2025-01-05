@@ -1,4 +1,7 @@
 {
+  "Contact": {
+    "title": "Contact!"
+  },
   "SiderBar": {
     "about": "About Me",
     "experiences": "Experiences",
@@ -7,7 +10,11 @@
     "projects": "Projects"
   },
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "content_fe": "Front-end engineering.",
+    "content_3": "With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.",
+    "content_2": "My areas of interest include problem-solving, cloud computing and with a strong focus on the role of a",
+    "content_1": "I'm currently a software engineer.",
+    "title_1": "Hello,",
+    "title_2": "My name is Nam!"
   }
 }

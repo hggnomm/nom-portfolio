@@ -54,7 +54,7 @@ export default function Sidebar() {
             height={40}
           />
           <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold hover:scale-105 transition-transform text-center">
-            Đây là Nam
+            Nam. Tran
           </p>
         </Link>
       </div>

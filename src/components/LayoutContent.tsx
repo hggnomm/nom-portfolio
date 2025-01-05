@@ -72,10 +72,10 @@ export default function LayoutContent({ children }: LayoutContentProps) {
         </div>
       </div>
       <div className="w-[100%] lg:w-[68%] flex flex-col md:flex-row mx-auto z-10">
-        <div className="w-[100%] md:w-[30%] bg-main-black">
+        <div className="w-[100%] md:w-[28%] bg-main-black">
           <Siderbar />
         </div>
-        <div className="w-[100%] md:w-[70%] bg-primary-color dark:bg-secondary-black">
+        <div className="w-[100%] md:w-[72%] bg-primary-color dark:bg-secondary-black">
           {children}
         </div>
       </div>

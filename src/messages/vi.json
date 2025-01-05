@@ -7,7 +7,11 @@
     "projects": "Dự Án Riêng"
   },
   "HomePage": {
-    "title": "Xin chào",
-    "about": "Đến trang about"
+    "content_fe": "Kỹ sư Front-end.",
+    "content_3": "Với sự chú trọng đến từng chi tiết. Mình tập trung để tạo ra các giải pháp đơn giản, hiệu quả, dễ bảo trì và nâng cao trải nghiệm người dùng.",
+    "content_2": "Các lĩnh vực mình quan tâm bao gồm giải quyết vấn đề, các dịch vụ đám mây và tập trung mạnh vào vai trò là một",
+    "content_1": "Mình hiện tại là một kỹ sư phần mềm.",
+    "title_1": "Xin chào,",
+    "title_2": "Mình tên là Nam!"
   }
 }
