@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
 import { useState } from "react";
+import LinkAccountButton from "./LinkAccountButton";
 
 export default function Sidebar() {
   const [activeButtons, setActiveButtons] = useState(Array(8).fill(false));
@@ -32,7 +33,7 @@ export default function Sidebar() {
       <div className="flex mt-6">
         <Link
           href={"/"}
-          className="flex w-full justify-center items-center py-6 gap-3 md:gap-6 lg:gap-7 relative"
+          className="flex flex-col md:flex-row w-full justify-center items-center py-6 gap-3 md:gap-6 lg:gap-7 relative"
         >
           <div className="relative border-2 lg:border-4 border-primary-color rounded-full w-20 h-20 lg:w-24 lg:h-24 bg-[#A0A0A0] overflow-hidden">
             <Image
@@ -46,18 +47,43 @@ export default function Sidebar() {
           <Image
             src="/curved-arrow.svg"
             alt="Curved Arrow"
-            className="absolute top-4 w-8 h-8 lg:w-12 lg:h-12 transform rotate-[-135deg] 
+            className=" md:absolute top-4 w-8 h-8 lg:w-12 lg:h-12 transform md:rotate-[-135deg]  
             hover:scale-105 hover:rotate-[-145deg] 
             transition-transform duration-500 ease-in-out"
             width={40}
             height={40}
           />
-          <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold hover:scale-105 transition-transform">
+          <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold hover:scale-105 transition-transform text-center">
             Đây là Nam
           </p>
         </Link>
       </div>
-
+      <div className="md:hidden flex flex-row gap-2 mb-4">
+        <LinkAccountButton
+          url="https://www.linkedin.com/in/hggnomm/"
+          iconSrc="/images/linkedin.svg"
+          iconSrcHover="/images/linkedin-color.svg"
+          altText="LinkedIn"
+        />
+        <LinkAccountButton
+          url="https://github.com/hggnomm"
+          iconSrc="/images/github.svg"
+          iconSrcHover="/images/github-color.svg"
+          altText="Github"
+        />
+        <LinkAccountButton
+          url="https://www.facebook.com/hggnomm"
+          iconSrc="/images/facebook.svg"
+          iconSrcHover="/images/facebook-color.svg"
+          altText="Facebook"
+        />
+        <LinkAccountButton
+          url="https://www.instagram.com/hggnomm"
+          iconSrc="/images/instagram.svg"
+          iconSrcHover="/images/instagram-color.svg"
+          altText="Instagram"
+        />
+      </div>
       {/* ThemeSwitch and LanguageSwitch */}
       <div className="absolute top-5 right-5 flex gap-[10px]">
         <ThemeSwitch />
@@ -88,7 +114,7 @@ export default function Sidebar() {
                 : "button-black"
             } absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-base lg:text-lg font-semibold">{t("about")}</p>
+            <p className="text-xs lg:text-lg font-semibold">{t("about")}</p>
           </Link>
         </div>
 
@@ -106,7 +132,7 @@ export default function Sidebar() {
                 : "button-black"
             } absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-base lg:text-lg font-semibold">
+            <p className="text-xs lg:text-lg font-semibold">
               {t("experiences")}
             </p>
           </Link>
@@ -134,7 +160,7 @@ export default function Sidebar() {
                 : "button-black"
             } absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-base lg:text-lg font-semibold">{t("blogs")}</p>
+            <p className="text-xs lg:text-lg font-semibold">{t("blogs")}</p>
           </Link>
         </div>
 
@@ -152,9 +178,7 @@ export default function Sidebar() {
                 : "button-black"
             } absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-base lg:text-lg font-semibold">
-              {t("projects")}
-            </p>
+            <p className="text-xs lg:text-lg font-semibold">{t("projects")}</p>
           </Link>
         </div>
 
@@ -172,7 +196,7 @@ export default function Sidebar() {
                 : "button-black"
             } absolute top-[-37%] right-0 active:bg-black`}
           >
-            <p className="text-base lg:text-lg font-semibold">{t("contact")}</p>
+            <p className="text-xs lg:text-lg font-semibold">{t("contact")}</p>
           </Link>
         </div>
 
