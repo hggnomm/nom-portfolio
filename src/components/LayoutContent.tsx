@@ -75,7 +75,7 @@ export default function LayoutContent({ children }: LayoutContentProps) {
         <div className="w-[100%] md:w-[28%] bg-main-black">
           <Siderbar />
         </div>
-        <div className="w-[100%] md:w-[72%] bg-primary-color dark:bg-secondary-black">
+        <div className="w-[100%] md:w-[72%] bg-primary-color dark:bg-secondary-black p-10">
           {children}
         </div>
       </div>

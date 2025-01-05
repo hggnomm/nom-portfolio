@@ -1,3 +1,12 @@
+import HeaderContent from "@/components/HeaderContent";
+import { useTranslations } from "next-intl";
+
 export default function About() {
-  return <h1>About</h1>;
+  const t = useTranslations("About");
+
+  return (
+    <div>
+      <HeaderContent title={t("title")} />
+    </div>
+  );
 }

@@ -1,5 +1,11 @@
 {
+  "About": {
+    "title": "About me"
+  },
   "Contact": {
+    "message": "You can also message me privately through:",
+    "anyQuestion": "Have any questions?",
+    "title_2": "Feel free to reach out if you want to build something together, have a question, or just want to connect.",
     "title": "Contact!"
   },
   "SiderBar": {

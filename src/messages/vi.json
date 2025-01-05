@@ -1,4 +1,13 @@
 {
+  "About": {
+    "title": "Về tui"
+  },
+  "Contact": {
+    "message": "Bạn cũng có thể liên hệ riêng cho tôi qua:",
+    "anyQuestion": "Bạn có thắc mắc nào không?",
+    "title_2": "Đừng ngần ngại liên hệ với tôi nếu bạn muốn hợp tác xây dựng điều gì thú vị, có bất kỳ câu hỏi nào, hoặc chỉ đơn giản là muốn trò chuyện và kết nối.",
+    "title": "Liên hệ!"
+  },
   "SiderBar": {
     "about": "Về Tui",
     "experiences": "Kinh Nghiệm",
