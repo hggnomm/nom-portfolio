@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
-import Siderbar from "@/components/Siderbar";
+import LayoutContent from "@/components/LayoutContent";
 
 const mali = Mali({
   subsets: ["latin"],
@@ -31,7 +31,6 @@ export default async function RootLayout({
   }
 
   // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -39,16 +38,7 @@ export default async function RootLayout({
       <Providers>
         <NextIntlClientProvider messages={messages}>
           <body>
-            <div className="w-full flex h-screen bg-primary-color dark:bg-secondary-black ">
-              <div className="w-[100%] lg:w-[65%] flex mx-auto">
-                <div className="w-[30%] bg-main-black">
-                  <Siderbar />
-                </div>
-                <div className="w-[70%] bg-primary-color dark:bg-secondary-black">
-                  {children}
-                </div>
-              </div>
-            </div>
+            <LayoutContent>{children}</LayoutContent>
           </body>
         </NextIntlClientProvider>
       </Providers>
