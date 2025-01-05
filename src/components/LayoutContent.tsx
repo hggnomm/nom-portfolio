@@ -13,9 +13,10 @@ export default function LayoutContent({ children }: LayoutContentProps) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
+  
   return (
-    <div className="relative w-full flex h-screen bg-primary-color dark:bg-secondary-black">
-      <div className="absolute lg:flex flex-col hidden justify-center items-center top-1/2 transform -translate-y-1/2 w-[16%]">
+    <div className="relative w-full h-full min-h-screen flex bg-primary-color dark:bg-secondary-black">
+      <div className="fixed lg:flex flex-col hidden justify-center items-center top-1/2 transform -translate-y-1/2 w-[16%]">
         <Image
           src={"/images/vietnam-flag-icon.svg"}
           alt="Vietnam"

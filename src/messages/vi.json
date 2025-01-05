@@ -1,6 +1,17 @@
 {
   "About": {
-    "title": "Về tui"
+    "content_10": "nghen hehe.",
+    "content_9": "đây",
+    "content_8": "À, nơi này là nơi mình viết lại những bài viết linh tinh, nếu bạn có quan tâm thì cứ ghé vào",
+    "content_7": "Mình có nhiều sở thích như là xem phim, nghe nhạc, chơi piano, chơi game, gặp gỡ bạn bè... và đặc biệt là biết nhậu 😄!!",
+    "content_6": "Cắm cúi vào màn hình mỗi ngày mà không giải trí sẽ không tốt, nên mình luôn duy trì sự cân bằng giữa công việc và thời gian thư giãn.",
+    "content_5": "Dù là một kỹ sư phần mềm, mình luôn giữ vững bản sắc riêng, thể hiện cá tính và dấu ấn của chính mình trong công việc và hành trình cuộc sống..",
+    "content_4": "Mình vẫn luôn cố gắng hoàn thiện bản thân. Bất cứ điều gì mình biết, đều chia sẻ hết lòng, hy vọng có thể giúp ích cho người khác theo cách nào đó.",
+    "content_3": "Vào năm 2 đại học, mình đã may mắn tìm được một nơi thực tập để học hỏi, thử thách và trau dồi kỹ năng.",
+    "content_2": "Mình cũng là một IT VKU-er với chuyên ngành khoa học máy tính tại Đà Nẵng.",
+    "content_1": "Hiện tại, mình là một Front End Engineer, và cũng đang cố gắng để trở thành một Blogger.",
+    "title_2": "Cảm ơn vì đã ghé thăm trang này! Mình sẽ kể lại ngắn gọn về bản thân mình ở phía bên dưới.",
+    "title": "Mình là ai?"
   },
   "Contact": {
     "message": "Bạn cũng có thể liên hệ riêng cho tôi qua:",
@@ -9,16 +20,16 @@
     "title": "Liên hệ!"
   },
   "SiderBar": {
-    "about": "Về Tui",
+    "about": "Về Mình",
     "experiences": "Kinh Nghiệm",
-    "blogs": "Blog Tui Viết",
+    "blogs": "Blog Mình Viết",
     "contact": "Liên Hệ",
     "projects": "Dự Án Riêng"
   },
   "HomePage": {
     "content_fe": "Kỹ sư Front-end.",
     "content_3": "Với sự chú trọng đến từng chi tiết. Mình tập trung để tạo ra các giải pháp đơn giản, hiệu quả, dễ bảo trì và nâng cao trải nghiệm người dùng.",
-    "content_2": "Các lĩnh vực mình quan tâm bao gồm giải quyết vấn đề, các dịch vụ đám mây và tập trung mạnh vào vai trò là một",
+    "content_2": "Các lĩnh vực mình quan tâm và làm việc bao gồm giải quyết vấn đề, các dịch vụ đám mây và tập trung mạnh vào vai trò là một",
     "content_1": "Mình hiện tại là một kỹ sư phần mềm.",
     "title_1": "Xin chào,",
     "title_2": "Mình tên là Nam!"
