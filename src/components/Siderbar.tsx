@@ -28,7 +28,7 @@ export default function Sidebar() {
   const normalizedPathname = pathname.replace(/\/(en|vi)\b/g, "");
 
   return (
-    <div className="flex flex-col items-center mx-auto relative">
+    <div className="flex flex-col items-center mx-auto relative h-full">
       {/* User Profile Section */}
       <div className="flex mt-6">
         <Link
@@ -91,7 +91,7 @@ export default function Sidebar() {
       <LanguageSwitch />
 
       {/* Layout Navigation Bar */}
-      <div className="w-full mt-4">
+      <div className="w-full mt-4 flex-grow">
         {/* Button 1 */}
         <div className="relative w-full">
           <div
@@ -207,23 +207,22 @@ export default function Sidebar() {
             className={`button ${activeButtons[7] ? "button-active" : ""}`}
           ></div>
         </div>
+      </div>
 
-        {/* Figma */}
-
-        <div className="my-12 text-center text-xs text-primary-color">
-          <p>Handcrafted by me © 2020. </p>
-          <p>
-            Design prototype is available on 
-            <a
-              href="https://www.figma.com/design/73TveLt3ND7RQ4p62NQaPX/Nom.-Portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
-            >
-              Figma
-            </a>
-          </p>
-        </div>
+      {/* Figma */}
+      <div className="my-12 text-center text-xs text-primary-color">
+        <p className="mb-1">{t("design_1")}</p>
+        <p>
+        {t("design_2")}
+          <a
+            href="https://www.figma.com/design/73TveLt3ND7RQ4p62NQaPX/Nom.-Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
+          >
+            Figma
+          </a>
+        </p>
       </div>
     </div>
   );
