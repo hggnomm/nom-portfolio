@@ -207,6 +207,23 @@ export default function Sidebar() {
             className={`button ${activeButtons[7] ? "button-active" : ""}`}
           ></div>
         </div>
+
+        {/* Figma */}
+
+        <div className="my-12 text-center text-xs text-primary-color">
+          <p>Handcrafted by me © 2020. </p>
+          <p>
+            Design prototype is available on 
+            <a
+              href="https://www.figma.com/design/73TveLt3ND7RQ4p62NQaPX/Nom.-Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
+            >
+              Figma
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
