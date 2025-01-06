@@ -1,4 +1,12 @@
 {
+  "Exp": {
+    "school": "Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
+    "it": "Công nghệ thông tin",
+    "education": "Học vấn",
+    "work_time": "Lộ trình công việc",
+    "title_2": "Những gì mình đã học và được làm, đều được tóm tắt ở đây !",
+    "title": "Kinh nghiệm"
+  },
   "About": {
     "content_10": "nghen hehe.",
     "content_9": "đây",
@@ -21,7 +29,7 @@
   },
   "SiderBar": {
     "design_2": "Nguyên mẫu thiết kế có sẵn trên ",
-    "design_1": "Được thiết kế bởi Nam. © 2024.",
+    "design_1": "Được thiết kế bởi Nam. © 2025.",
     "about": "Về Mình",
     "experiences": "Kinh Nghiệm",
     "blogs": "Blog Mình Viết",
@@ -31,7 +39,7 @@
   "HomePage": {
     "content_fe": "Kỹ sư Front-end.",
     "content_3": "Với sự chú trọng đến từng chi tiết. Mình tập trung để tạo ra các giải pháp đơn giản, hiệu quả, dễ bảo trì và nâng cao trải nghiệm người dùng.",
-    "content_2": "Các lĩnh vực mình quan tâm và làm việc bao gồm giải quyết vấn đề, các dịch vụ đám mây và tập trung mạnh vào vai trò là một",
+    "content_2": "Các lĩnh vực mình quan tâm và làm việc bao gồm phát triển ứng dụng web, dịch vụ đám mây, giải quyết vấn đề, và tập trung mạnh vào vai trò là một",
     "content_1": "Mình hiện tại là một kỹ sư phần mềm.",
     "title_1": "Xin chào,",
     "title_2": "Mình tên là Nam!"

@@ -7,7 +7,7 @@ export default function About() {
   const t = useTranslations("About");
 
   return (
-    <div>
+    <div className="ml-10">
       <HeaderContent title={t("title")} content={t("title_2")} />
 
       <div className="w-full h-full flex gap-9 justify-start items-center mb-14">

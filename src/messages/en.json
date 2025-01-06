@@ -1,4 +1,12 @@
 {
+  "Exp": {
+    "school": "Vietnam-Korea University of Information and Communications Technology",
+    "it": "Information Technology",
+    "education": "Education",
+    "work_time": "Work timeline",
+    "title_2": "Everything I have learned and done is summarized here!",
+    "title": "My experiences"
+  },
   "About": {
     "content_10": "hehe.",
     "content_9": "here",
@@ -11,7 +19,7 @@
     "content_2": "I'm also an IT student majoring in computer science at VKU at Da Nang City.",
     "content_1": "Currently, I am a Front End Engineer, and I am also trying to become a Blogger.",
     "title_2": "Thank you for visiting my page! I will provide a brief summary of myself below.",
-    "title": "Who Am I ?"
+    "title": "Who am i ?"
   },
   "Contact": {
     "message": "You can also message me privately through:",
@@ -21,7 +29,7 @@
   },
   "SiderBar": {
     "design_2": "Design prototype is available on ",
-    "design_1": "Designed by me © 2024.",
+    "design_1": "Designed by me © 2025.",
     "about": "About Me",
     "experiences": "Experiences",
     "blogs": "My Blogs",
@@ -31,7 +39,7 @@
   "HomePage": {
     "content_fe": "Front-end engineering.",
     "content_3": "With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.",
-    "content_2": "My areas of interest include problem-solving, cloud computing and with a strong focus on the role of a",
+    "content_2": "My areas of interest include web development, cloud computing, problem-solving, and I have a strong focus on the role of a front-end engineer.",
     "content_1": "I'm currently a software engineer.",
     "title_1": "Hello,",
     "title_2": "My name is Nam!"
