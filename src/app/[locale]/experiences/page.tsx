@@ -3,18 +3,19 @@ import { experiences } from "@/exp";
 import { useTranslations } from "next-intl";
 import { MdWorkHistory } from "react-icons/md";
 import { IoMdSchool } from "react-icons/io";
+import Image from "next/image";
 
 export default function Experiences() {
   const t = useTranslations("Exp");
 
   return (
-    <div className="mx-10">
+    <div className="ml-10">
       <HeaderContent title={t("title")} content={t("title_2")} />
 
       {/* Exp */}
       <div className="flex items-center gap-4 mb-6">
         <MdWorkHistory size={40} />
-        <p className="text-xs md:text-base">Work timeline</p>
+        <p className="text-xs md:text-base">{t("work_time")}</p>
       </div>
 
       <div>
@@ -31,14 +32,14 @@ export default function Experiences() {
               {/* Description */}
               <ul className="mb-4 list-disc pl-5 text-stone-400">
                 {exp.description.map((desc, descIndex) => (
-                  <li key={descIndex}>{desc}</li>
+                  <li className="mb-2" key={descIndex}>{desc}</li>
                 ))}
               </ul>
               <div className="flex flex-wrap">
                 {exp.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="mr-2 mt-2 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300"
+                    className="mr-2 mt-2 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300 hover:scale-105"
                   >
                     {skill}
                   </span>
@@ -50,9 +51,39 @@ export default function Experiences() {
       </div>
 
       {/* Education */}
-      <div className="flex items-center gap-4 mb-4">
+      <div className="flex items-center gap-4 mb-6">
         <IoMdSchool size={40} />
-        <p className="text-xs md:text-base">Education</p>
+        <p className="text-xs md:text-base">{t("education")}</p>
+      </div>
+
+      <div className="mb-12 flex flex-wrap">
+        <div className="w-full lg:w-1/4">
+          <p className="mb-2 text-sm text-stone-400">2021 - 2025</p>
+        </div>
+        <div className="w-full max-w-xl lg:w-3/4">
+          <div className="flex items-center gap-x-2 md:gap-x-4">
+            <div className="rounded-xl border border-black overflow-hidden">
+              <Image
+                src="/images/vku.png"
+                alt="Productive Image"
+                width={120}
+                height={120}
+                layout="intrinsic"
+                quality={100}
+                className="hover:scale-105"
+              />
+            </div>
+
+            <div>
+              <p className="mb-1 text-xs font-bold md:text-base pb-2 border-b-2 border-stone-500 dark:border-primary-color uppercase">
+              {t("it")}
+              </p>
+              <p className="text-xs font-medium md:text-base">
+              {t("school")}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

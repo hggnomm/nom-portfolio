@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import Typewriter from "typewriter-effect";
 
 export default function HomePage() {
@@ -15,7 +16,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="w-full h-full flex gap-6 justify-center items-center mx-10">
+    <div className="w-full h-full flex gap-x-4 justify-center items-center ml-10">
       <div className="w-1/2">
         <div className="min-h-20">
           <Typewriter
@@ -42,8 +43,12 @@ export default function HomePage() {
               {t("content_fe")}
             </span>
           </p>
-          <p className="mb-4
-          ">{t("content_3")}</p>
+          <p
+            className="mb-4
+          "
+          >
+            {t("content_3")}
+          </p>
         </div>
 
         <a
@@ -55,7 +60,16 @@ export default function HomePage() {
           Get My Resumse
         </a>
       </div>
-      <div className="w-1/2 h-full"></div>
+      <div className="w-1/2 flex justify-center">
+        <Image
+          src="/images/nam_2.jpeg"
+          alt="Productive Image"
+          width={260}
+          height={260}
+          layout="intrinsic"
+          quality={100}
+        />
+      </div>
     </div>
   );
 }
