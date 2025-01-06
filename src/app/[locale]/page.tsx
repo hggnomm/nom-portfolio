@@ -8,14 +8,14 @@ export default function HomePage() {
 
   // Hàm helper để trả về chuỗi HTML với các lớp Tailwind
   function getStyledTitle() {
-    return `<span class="text-black dark:text-primary-color ${"text-2xl font-semibold"}">
+    return `<span class="text-black dark:text-primary-color ${"text-3xl font-semibold"}">
       ${t("title_1")}<br/>
       ${t("title_2")}
     </span>`;
   }
 
   return (
-    <div className="w-full h-full flex gap-6 justify-center items-center mx-8">
+    <div className="w-full h-full flex gap-6 justify-center items-center mx-10">
       <div className="w-1/2">
         <div className="min-h-20">
           <Typewriter
@@ -34,7 +34,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="text-gray-700 dark:text-gray-300 min-h-[200px] tracking-wide">
+        <div className="text-gray-700 dark:text-gray-300 min-h-[200px] tracking-wide mt-4">
           <p className="mb-4">{t("content_1")}</p>
           <p className="mb-4">
             {t("content_2")}{" "}
@@ -42,7 +42,7 @@ export default function HomePage() {
               {t("content_fe")}
             </span>
           </p>
-          <p className="mb-6
+          <p className="mb-4
           ">{t("content_3")}</p>
         </div>
 

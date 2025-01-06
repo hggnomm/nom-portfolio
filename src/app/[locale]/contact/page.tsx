@@ -5,7 +5,7 @@ export default function Contact() {
   const t = useTranslations("Contact");
 
   return (
-    <div>
+    <div className="mx-10">
       <HeaderContent title={t("title")} content={t("title_2")} />
 
       <p className="text-xl mb-2">{t("anyQuestion")}</p>
