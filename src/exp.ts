@@ -3,6 +3,7 @@ export const experiences = [
     timePeriod: "9/2023 - 9/2024",
     position: "Full-stack Developer",
     company: "FPT Software",
+    link: "https://www.linkedin.com/company/fpt-software",
     description: [
       "Developed and maintained internal company web applications to manage users and employees.",
       "Received, designed, and confirmed requirements before implement the features.",
@@ -31,6 +32,7 @@ export const experiences = [
     timePeriod: "6/2023 - 8/2023",
     position: "Web Developer Intern",
     company: "FPT Innovation",
+    link: "https://www.linkedin.com/company/fptsoftwareinnovation",
     description: [
       "Developed RESTful APIs using .NET Core.",
       "Implemented backend authentication and authorization with OAuth2.",

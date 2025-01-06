@@ -22,17 +22,26 @@ export default function Experiences() {
         {experiences.map((exp, index) => (
           <div key={index} className="mb-12 flex flex-wrap">
             <div className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">{exp.timePeriod}</p>
+              <p className="mb-2 text-sm text-stone-600 dark:text-stone-400">{exp.timePeriod}</p>
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold">
                 {exp.position} -{" "}
-                <span className="text-sm text-stone-500">{exp.company}</span>
+                <a
+                  href={exp.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-600 dark:text-orange-500 underline tracking-wide hover:text-blue-800 dark:hover:text-orange-700"
+                >
+                  {exp.company}
+                </a>
               </h3>
               {/* Description */}
-              <ul className="mb-4 list-disc pl-5 text-stone-400">
+              <ul className="mb-4 list-disc pl-5 text-stone-600 dark:text-stone-400">
                 {exp.description.map((desc, descIndex) => (
-                  <li className="mb-2" key={descIndex}>{desc}</li>
+                  <li className="mb-2" key={descIndex}>
+                    {desc}
+                  </li>
                 ))}
               </ul>
               <div className="flex flex-wrap">
@@ -62,7 +71,12 @@ export default function Experiences() {
         </div>
         <div className="w-full max-w-xl lg:w-3/4">
           <div className="flex items-center gap-x-2 md:gap-x-4">
-            <div className="rounded-xl border border-black overflow-hidden">
+            <a
+              href="https://vku.udn.vn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-black overflow-hidden"
+            >
               <Image
                 src="/images/vku.png"
                 alt="Productive Image"
@@ -72,15 +86,13 @@ export default function Experiences() {
                 quality={100}
                 className="hover:scale-105"
               />
-            </div>
+            </a>
 
             <div>
               <p className="mb-1 text-xs font-bold md:text-base pb-2 border-b-2 border-stone-500 dark:border-primary-color uppercase">
-              {t("it")}
+                {t("it")}
               </p>
-              <p className="text-xs font-medium md:text-base">
-              {t("school")}
-              </p>
+              <p className="text-xs font-medium md:text-base">{t("school")}</p>
             </div>
           </div>
         </div>
