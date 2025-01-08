@@ -1,9 +1,12 @@
+"use client";
+
 import HeaderContent from "@/components/HeaderContent";
 import { experiences } from "@/exp";
 import { useTranslations } from "next-intl";
 import { MdWorkHistory } from "react-icons/md";
 import { IoMdSchool } from "react-icons/io";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Experiences() {
   const t = useTranslations("Exp");
@@ -20,9 +23,17 @@ export default function Experiences() {
 
       <div>
         {experiences.map((exp, index) => (
-          <div key={index} className="mb-12 flex flex-wrap">
+          <motion.div
+            key={index}
+            className="mb-12 flex flex-wrap"
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+          >
             <div className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-600 dark:text-stone-400">{exp.timePeriod}</p>
+              <p className="mb-2 text-sm text-stone-600 dark:text-stone-400">
+                {exp.timePeriod}
+              </p>
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold">
@@ -55,7 +66,7 @@ export default function Experiences() {
                 ))}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
 
@@ -65,7 +76,12 @@ export default function Experiences() {
         <p className="text-xs md:text-base">{t("education")}</p>
       </div>
 
-      <div className="mb-12 flex flex-wrap">
+      <motion.div
+        className="mb-12 flex flex-wrap"
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+      >
         <div className="w-full lg:w-1/4">
           <p className="mb-2 text-sm text-stone-400">2021 - 2025</p>
         </div>
@@ -96,7 +112,7 @@ export default function Experiences() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function LayoutContent({ children }: LayoutContentProps) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
-  
+
   return (
     <div className="relative w-full h-full min-h-screen flex bg-primary-color dark:bg-secondary-black">
       <div className="fixed lg:flex flex-col hidden justify-center items-center top-1/2 transform -translate-y-1/2 w-[16%]">
@@ -76,7 +76,7 @@ export default function LayoutContent({ children }: LayoutContentProps) {
         <div className="w-[100%] md:w-[28%] bg-main-black">
           <Siderbar />
         </div>
-        <div className="w-[100%] md:w-[72%] bg-primary-color dark:bg-secondary-black p-10">
+        <div className="w-[100%] md:w-[72%] bg-primary-color dark:bg-secondary-black p-4 xl:p-10">
           {children}
         </div>
       </div>
