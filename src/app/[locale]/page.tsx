@@ -63,7 +63,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="text-gray-700 dark:text-gray-300 min-h-[200px] tracking-normal md:tracking-wide mt-4">
+        <div className="text-gray-700 dark:text-gray-300 min-h-[200px] tracking-normal md:tracking-wide mt-4 md:mt-8">
           <motion.p
             variants={childVariants}
             className="mb-4 text-xs md:text-base lg:text-lg"
