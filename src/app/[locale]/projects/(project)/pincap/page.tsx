@@ -1,4 +1,8 @@
+"use client";
+
+import { useEffect } from "react";
 import Image from "next/image";
+import zoom from "medium-zoom";
 
 const stacks = [
   "TypeScript",
@@ -14,6 +18,10 @@ const stacks = [
 ];
 
 export default function Page() {
+  useEffect(() => {
+    zoom(".zoom-image");
+  }, []);
+
   return (
     <div>
       <h1 className="text-[2.5rem] font-semibold">PinCap</h1>
@@ -75,12 +83,14 @@ export default function Page() {
 
       <div className="mt-5">
         <div className="w-full">
+          {/* Áp dụng class zoom-image cho ảnh để có thể zoom */}
           <Image
+            className="zoom-image"
             src={"/images/projects/pincap/img4.png"}
-            alt=""
-            width={1200} 
-            height={800} 
-            layout="responsive" 
+            alt="PinCap Project"
+            width={1200}
+            height={800}
+            layout="responsive"
             quality={100}
           />
         </div>
