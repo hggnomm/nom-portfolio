@@ -1,25 +1,23 @@
 "use client";
 
+import LanguageSwitch from "@/components/LanguageSwitch";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const router = useRouter();
-
   return (
     <div className="w-full h-full">
       <div className="flex w-full justify-between">
-        <button
+        <Link
+          href={"/projects"}
           className="uppercase flex items-center gap-2 text-xl hover:scale-105"
-          onClick={() => router.back()}
         >
           <AiOutlineArrowLeft size={20} />
           Back
-        </button>
-        <div className="flex">
+        </Link>
+        <div className="flex flex-col justify-center items-center gap-5">
           <Link
             href={"/"}
             className="relative border-2 lg:border-4 border-primary-color rounded-full w-20 h-20 lg:w-24 lg:h-24 bg-[#A0A0A0] overflow-hidden cursor-pointer"
@@ -32,7 +30,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               className="hover:scale-105 transition-transform"
             />
           </Link>
-          <div className="absolute top-2 left-4 md:top-6 md:left-6 flex">
+          <LanguageSwitch />
+          <div className="fixed top-2 left-4 md:top-6 md:left-6 flex">
             <ThemeSwitch />
           </div>
         </div>

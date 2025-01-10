@@ -3,11 +3,13 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import zoom from "medium-zoom";
+import { useTranslations } from "next-intl";
 
 const stacks = [
   "TypeScript",
   "React.js",
   "Laravel",
+  "OAuth2",
   "Python",
   "CNNs",
   "Ant Design",
@@ -18,6 +20,8 @@ const stacks = [
 ];
 
 export default function Page() {
+  const t = useTranslations("PinCap");
+
   useEffect(() => {
     zoom(".zoom-image");
   }, []);
@@ -25,17 +29,12 @@ export default function Page() {
   return (
     <div>
       <h1 className="text-[2.5rem] font-semibold">PinCap</h1>
+      <p className="mt-5">{t("description_1")}</p>
       <p className="mt-5">
         Plantly was an RMIT external capstone project for RMIT Programming
         Project 1 (COSC2408) semester 1 2020 supervised by Amir Homayoon - who
         was also the head tutor of RMIT Programming Project 1.
       </p>
-      <p className="mt-5">
-        Plantly was an RMIT external capstone project for RMIT Programming
-        Project 1 (COSC2408) semester 1 2020 supervised by Amir Homayoon - who
-        was also the head tutor of RMIT Programming Project 1.
-      </p>
-
       <div className="mt-5">
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse">
@@ -80,10 +79,8 @@ export default function Page() {
           </table>
         </div>
       </div>
-
       <div className="mt-5">
         <div className="w-full">
-          {/* Áp dụng class zoom-image cho ảnh để có thể zoom */}
           <Image
             className="zoom-image"
             src={"/images/projects/pincap/img4.png"}
@@ -95,6 +92,11 @@ export default function Page() {
           />
         </div>
       </div>
+      <div className="relative flex py-20 items-center">
+        <div className="flex-grow border-t border-stone-600"></div>
+      </div>
+
+      <h2 className="text-xl font-semibold">Purpose of the project</h2>
     </div>
   );
 }
