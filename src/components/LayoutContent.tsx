@@ -24,7 +24,7 @@ export default function LayoutContent({ children }: LayoutContentProps) {
           height={40}
           className="hover:scale-110 transition-all mb-3"
         />
-        <p className="text-center text-sm md:text-xl font-medium text-secondary-black dark:text-primary-color">
+        <p className="text-center text-sm md:text-base font-medium text-secondary-black dark:text-primary-color">
           H
           <br />
           O
