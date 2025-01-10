@@ -38,7 +38,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full h-full flex flex-col-reverse md:flex-row gap-x-4 lg:gap-x-10 justify-center items-center lg:mx-10">
+    <div className="w-full h-full flex flex-col-reverse md:flex-row gap-x-4 lg:gap-x-10 justify-center items-center">
       <motion.div
         className="w-3/5"
         initial="hidden"
