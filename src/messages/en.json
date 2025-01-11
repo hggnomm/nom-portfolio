@@ -1,6 +1,15 @@
 {
+  "KatenaiShield": {
+    "description_5": "I have also learned React Native, and I find it quite interesting. Knowing how to code a cross-platform project is a valuable skill that will be extremely helpful for me in future projects.",
+    "description_4": "I have learned and worked extensively with Figma, including using features like run Figma, applying effects, and adding color fills. This has helped me create engaging and interactive designs, allowing me to bring creative ideas to life with ease.",
+    "description_3": "The project creates a mobile app to support individuals affected by domestic violence, helping them connect with a community, send emergency SOS alerts, join psychological workshops, and find safe shelters. The goal is to accompany and provide psychological support, empowering users to overcome challenges and build a more positive life.",
+    "description_2": "In many countries, people affected by domestic violence face loneliness and fear. They don't have many chances to connect with others or get help in emergencies. Support organizations and services are often hard to reach, especially in remote areas or for those who don't have enough information about how to get help. Their living conditions are often filled with anxiety and a lack of safety, which makes both their mental and physical harm worse.",
+    "description_1": "Katenai Shield is an innovation project developed during school years. The application focuses on the issue of domestic violence, a pressing and widespread problem that societies everywhere are struggling to tackle.",
+    "description_0": "My project team consists of 3 people, I am the team leader responsible for designing Figma and coding in React Native",
+    "lesson": "Lesson learned",
+    "purpose": "Purpose of the project"
+  },
   "PinCap": {
-    "description_2": "These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.",
     "description_1": "PinCap is a project is being implemented during the study period at VKU. This project is carefully prepared and has a long-term orientation for the goal of defending the graduation thesis by the end of 2025."
   },
   "Projects": {

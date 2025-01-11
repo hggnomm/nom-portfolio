@@ -1,7 +1,16 @@
 {
+  "KatenaiShield": {
+    "description_5": "Tôi cũng đã học React Native, điều này rất thú vị. Biết cách code một dự án cross-platorm là một kỹ năng rất hữu ích, nó sẽ giúp ích rất nhiều cho tôi trong các dự án tiếp theo mà tôi thực hiện.",
+    "description_4": "Tôi đã học và làm việc nhiều với Figma, bao gồm sử dụng các tính năng như chạy Figma, áp dụng hiệu ứng và thêm màu tô. Điều này đã giúp tôi tạo ra các thiết kế hấp dẫn và tương tác, cho phép tôi dễ dàng hiện thực hóa các ý tưởng sáng tạo.",
+    "description_3": "Dự án tạo ra một ứng dụng di động hỗ trợ người bị bạo lực gia đình, giúp họ kết nối cộng đồng, gửi SOS khẩn cấp, tham gia hội thảo tâm lý và tìm nơi trú ẩn an toàn. Mục tiêu là đồng hành, hỗ trợ tâm lý và tạo điều kiện để người dùng vượt qua khó khăn, xây dựng cuộc sống tích cực hơn.",
+    "description_2": "Ở nhiều nước, có nhiều người bị bạo lực gia đình phải đối mặt với sự cô đơn, sợ hãi. Họ không có nhiều cơ hội để kết nối với cộng đồng hoặc tìm kiếm sự trợ giúp trong những tình huống khẩn cấp. Các tổ chức và dịch vụ hỗ trợ còn hạn chế về khả năng tiếp cận, đặc biệt trong các khu vực xa xôi hoặc đối với những người không có đủ thông tin về các phương thức giúp đỡ. Môi trường sống của họ thường xuyên đầy lo âu và thiếu sự an toàn, làm tăng thêm tổn thương tâm lý và thể chất.",
+    "description_1": "Katenai Shield là một dự án sáng tạo được nghiên cứu khi tôi còn học ở trên trường. Ứng dụng sẽ tập trung khai thác về vấn đề bạo lực gia đình, một vấn đề nhức nhói mà ở đâu cũng đang phải đối mặt.",
+    "description_0": "Nhóm dự án bao gồm 3 người, tôi là nhóm trưởng chịu trách nhiệm trong việc thiết kế Figma và code trong React Native",
+    "lesson": "Bài học rút ra",
+    "purpose": "Mục đích của dự án"
+  },
   "PinCap": {
-    "description_2": "Những gì mình đã học và được làm, đều được tóm tắt ở đây !",
-    "description_1": "PinCap là một dự án đã và đang được thực hiện trong thời gian học tập tại VKU. Dự án này được chuẩn bị một cách kỹ lưỡng và có định hướng dài hạn, hướng đến mục tiêu bảo vệ luận văn tốt nghiệp vào cuối năm 2025."
+    "description_1": "PinCap là một dự án đang được thực hiện trong thời gian học tập tại VKU. Dự án này được chuẩn bị một cách kỹ lưỡng và có định hướng dài hạn, hướng đến mục tiêu bảo vệ luận văn tốt nghiệp vào cuối năm 2025."
   },
   "Projects": {
     "title_2": "Những gì mình đã học và được làm, đều được tóm tắt ở đây !",

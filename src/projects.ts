@@ -20,6 +20,21 @@ export const projects = [
     ],
   },
   {
+    id: "katenai-shield",
+    title: "Katenai Shield",
+    timeline: "2024",
+    image: "/images/projects/katenai-shield/preview.png",
+    description:
+      "A cross-platform mobile project on the topic of domestic violence, suitable for all users with an easy-to-see and eye-catching interface. Currently only the UI part is available",
+    stacks: [
+      "TypeScript",
+      "React Native",
+      "Figma",
+      "Expo",
+      "Google Maps API",
+    ],
+  },
+  {
     id: "osmd",
     title: "OSMD",
     timeline: "2023 - Current",
@@ -34,14 +49,6 @@ export const projects = [
       "opensheetmusicdisplay",
       "osmd",
     ],
-  },
-  {
-    id: "edusity",
-    title: "Edusity",
-    timeline: "2023",
-    image: "/images/projects/edusity/preview.png",
-    description: "A website that introduces information about a university.",
-    stacks: ["React.js", "Vite.js", "Mail Web3"],
   },
   {
     id: "wubi-music",

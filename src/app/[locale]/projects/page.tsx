@@ -30,7 +30,7 @@ export default function Projects() {
               key={project.id}
               className="flex p-3 border border-stone-300 dark:border-stone-600 justify-center items-start gap-6 rounded-sm cursor-pointer hover:bg-white dark:hover:bg-stone-900 hover:bg-opacity-20"
             >
-              <div className="relative w-1/2 overflow-hidden">
+              <div className="relative md:w-[65%] lg:w-1/2 w-1/2 overflow-hidden">
                 <motion.div
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.05 }}
@@ -42,7 +42,8 @@ export default function Projects() {
                     alt={project.title}
                     width={1000}
                     height={560}
-                    className="object-cover h-[173px] rounded-sm transform transition-transform duration-500 border border-stone-200"
+                    objectFit="cover"
+                    className="h-[173px] rounded-sm transform transition-transform duration-500 border border-stone-200"
                   />
                 </motion.div>
                 <motion.div
@@ -64,12 +65,12 @@ export default function Projects() {
                 </motion.div>
               </div>
 
-              <div className="flex flex-col w-1/2">
+              <div className="flex flex-col md:w-[35%] lg:w-1/2 w-1/2">
                 <h3 className="text-2xl font-bold">{project.title}</h3>
                 <p className="text-sm text-stone-600 dark:text-stone-400 mt-2">
                   {project.timeline}
                 </p>
-                <p className="text-sm mt-2">{project.description}</p>
+                <p className="text-xs lg:text-sm mt-2">{project.description}</p>
               </div>
             </Link>
           </motion.div>

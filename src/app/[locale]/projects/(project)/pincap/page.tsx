@@ -30,11 +30,6 @@ export default function Page() {
     <div>
       <h1 className="text-[2.5rem] font-semibold">PinCap</h1>
       <p className="mt-5">{t("description_1")}</p>
-      <p className="mt-5">
-        Plantly was an RMIT external capstone project for RMIT Programming
-        Project 1 (COSC2408) semester 1 2020 supervised by Amir Homayoon - who
-        was also the head tutor of RMIT Programming Project 1.
-      </p>
       <div className="mt-5">
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse">
@@ -66,7 +61,7 @@ export default function Page() {
                     Repository
                   </a>
                 </td>
-                <td className="py-4 align-top">
+                <td className="py-4 align-top flex flex-col">
                   <a
                     href=""
                     className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
