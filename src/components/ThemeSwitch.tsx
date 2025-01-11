@@ -1,4 +1,3 @@
-// app/components/ThemeSwitch.tsx
 "use client";
 
 import { FiSun, FiMoon } from "react-icons/fi";

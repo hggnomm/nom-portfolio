@@ -1,4 +1,12 @@
 {
+  "PinCap": {
+    "description_2": "These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.",
+    "description_1": "PinCap is a project is being implemented during the study period at VKU. This project is carefully prepared and has a long-term orientation for the goal of defending the graduation thesis by the end of 2025."
+  },
+  "Projects": {
+    "title_2": "These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.",
+    "title": "Featured Projects"
+  },
   "Exp": {
     "school": "Vietnam-Korea University of Information and Communications Technology",
     "it": "Information Technology",
@@ -37,9 +45,9 @@
     "projects": "Projects"
   },
   "HomePage": {
-    "content_fe": "Front-end engineering.",
+    "content_fe": "Front-end engineer.",
     "content_3": "With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.",
-    "content_2": "My areas of interest include web development, cloud computing, problem-solving, and I have a strong focus on the role of a front-end engineer.",
+    "content_2": "My areas of interest include web development, cloud computing, problem-solving, and I have a strong focus on the role of a",
     "content_1": "I'm currently a software engineer.",
     "title_1": "Hello,",
     "title_2": "My name is Nam!"

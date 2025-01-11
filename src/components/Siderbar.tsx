@@ -153,24 +153,6 @@ export default function Sidebar() {
             className={`button ${activeButtons[4] ? "button-active" : ""}`}
           ></div>
           <Link
-            href="/blogs"
-            className={`${
-              normalizedPathname === "/blogs"
-                ? "button-black-active"
-                : "button-black"
-            } absolute top-[-37%] right-0 active:bg-black`}
-          >
-            <p className="text-xs lg:text-lg font-semibold">{t("blogs")}</p>
-          </Link>
-        </div>
-
-        {/* Button 6 + Black Button 4 */}
-        <div className="relative w-full">
-          <div
-            onClick={() => handleClick(5)}
-            className={`button ${activeButtons[5] ? "button-active" : ""}`}
-          ></div>
-          <Link
             href="/projects"
             className={`${
               normalizedPathname === "/projects"
@@ -182,11 +164,11 @@ export default function Sidebar() {
           </Link>
         </div>
 
-        {/* Button 7 + Black Button 5 */}
+        {/* Button 6 + Black Button 4 */}
         <div className="relative w-full">
           <div
-            onClick={() => handleClick(6)}
-            className={`button ${activeButtons[6] ? "button-active" : ""}`}
+            onClick={() => handleClick(5)}
+            className={`button ${activeButtons[5] ? "button-active" : ""}`}
           ></div>
           <Link
             href="/contact"
@@ -198,6 +180,24 @@ export default function Sidebar() {
           >
             <p className="text-xs lg:text-lg font-semibold">{t("contact")}</p>
           </Link>
+        </div>
+
+        {/* Button 7 + Black Button 5 */}
+        <div className="relative w-full">
+          <div
+            onClick={() => handleClick(6)}
+            className={`button ${activeButtons[6] ? "button-active" : ""}`}
+          ></div>
+          <div
+            // href="/blogs"
+            className={`${
+              normalizedPathname === "/blogs"
+                ? "button-black-active"
+                : "button-black"
+            } absolute top-[-37%] right-0 active:bg-black`}
+          >
+            <p className="text-xs lg:text-lg font-semibold"></p>
+          </div>
         </div>
 
         {/* Button 8 */}
@@ -213,7 +213,7 @@ export default function Sidebar() {
       <div className="my-12 text-center text-xs text-primary-color">
         <p className="mb-1">{t("design_1")}</p>
         <p>
-        {t("design_2")}
+          {t("design_2")}
           <a
             href="https://www.figma.com/design/73TveLt3ND7RQ4p62NQaPX/Nom.-Portfolio"
             target="_blank"

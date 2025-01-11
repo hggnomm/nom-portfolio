@@ -17,8 +17,8 @@ const LinkAccountButton: React.FC<LinkAccountButtonProps> = ({
   iconSrcHover,
   altText,
   buttonClass = "p-1 bg-primary-color border border-black rounded-full transition-all duration-200",
-  iconWidth = 30,
-  iconHeight = 30,
+  iconWidth = 20,
+  iconHeight = 20,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 

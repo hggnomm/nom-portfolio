@@ -12,7 +12,7 @@ export default function Experiences() {
   const t = useTranslations("Exp");
 
   return (
-    <div className="ml-10">
+    <div>
       <HeaderContent title={t("title")} content={t("title_2")} />
 
       {/* Exp */}

@@ -1,4 +1,12 @@
 {
+  "PinCap": {
+    "description_2": "Những gì mình đã học và được làm, đều được tóm tắt ở đây !",
+    "description_1": "PinCap là một dự án đã và đang được thực hiện trong thời gian học tập tại VKU. Dự án này được chuẩn bị một cách kỹ lưỡng và có định hướng dài hạn, hướng đến mục tiêu bảo vệ luận văn tốt nghiệp vào cuối năm 2025."
+  },
+  "Projects": {
+    "title_2": "Những gì mình đã học và được làm, đều được tóm tắt ở đây !",
+    "title": "Kinh nghiệm"
+  },
   "Exp": {
     "school": "Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
     "it": "Công nghệ thông tin",

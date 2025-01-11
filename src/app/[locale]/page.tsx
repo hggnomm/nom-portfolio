@@ -8,7 +8,7 @@ export default function HomePage() {
   const t = useTranslations("HomePage");
 
   function getStyledTitle() {
-    return `<span class="text-black dark:text-primary-color ${"text-2xl md:text-4xl font-semibold"}">
+    return `<span class="text-black dark:text-primary-color ${"text-2xl md:text-3xl font-semibold"}">
       ${t("title_1")}<br/>
       ${t("title_2")}
     </span>`;
@@ -38,9 +38,9 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full h-full flex flex-col-reverse md:flex-row gap-x-4 lg:gap-x-20 justify-center items-center lg:mx-10">
+    <div className="w-full h-full flex flex-col-reverse md:flex-row gap-x-4 lg:gap-x-10 justify-center items-center">
       <motion.div
-        className="w-1/2"
+        className="w-3/5"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
@@ -66,13 +66,13 @@ export default function HomePage() {
         <div className="text-gray-700 dark:text-gray-300 min-h-[200px] tracking-normal md:tracking-wide mt-4 md:mt-8">
           <motion.p
             variants={childVariants}
-            className="mb-4 text-xs md:text-base lg:text-lg"
+            className="mb-4 text-xs md:text-base"
           >
             {t("content_1")}
           </motion.p>
           <motion.p
             variants={childVariants}
-            className="mb-4 text-xs md:text-base lg:text-lg"
+            className="mb-4 text-xs md:text-base"
           >
             {t("content_2")}{" "}
             <span className="font-semibold text-main-black dark:text-primary-color">
@@ -81,7 +81,7 @@ export default function HomePage() {
           </motion.p>
           <motion.p
             variants={childVariants}
-            className="mb-4 text-xs md:text-base lg:text-lg"
+            className="mb-4 text-xs md:text-base"
           >
             {t("content_3")}
           </motion.p>
@@ -98,7 +98,7 @@ export default function HomePage() {
         </motion.a>
       </motion.div>
 
-      <div className="w-1/2 flex justify-center">
+      <div className="w-2/5 flex justify-center">
         <motion.img
           src="/images/IMG_0903.JPG"
           alt="Productive Image"
