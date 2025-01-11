@@ -6,32 +6,72 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LinkAccountButton from "./LinkAccountButton";
 import * as Tone from "tone";
 
 export default function Sidebar() {
   const [activeButtons, setActiveButtons] = useState(Array(8).fill(false));
+  const [buttonClicked, setButtonClicked] = useState(0); 
+  const [completedInTime, setCompletedInTime] = useState(false); 
+  const [startTime, setStartTime] = useState<number | null>(null); 
+  const [isReset, setIsReset] = useState(false);
   const pathname = usePathname();
   const t = useTranslations("SiderBar");
 
-  const handleClick = (index: any) => {
+  const handleClick = (index: number) => {
+    if (index === 0 && !completedInTime) {
+      setActiveButtons(Array(8).fill(false));
+      setButtonClicked(0);
+      setCompletedInTime(false);
+      setStartTime(Date.now()); 
+      setIsReset(true); 
+    } else {
+      setIsReset(false); // Not reset anymore after user starts
+    }
+
+    if (startTime === null) {
+      setStartTime(Date.now());
+    }
+
     const newActiveButtons = [...activeButtons];
     newActiveButtons[index] = true;
     setActiveButtons(newActiveButtons);
 
+    // Increment the clicked button count
+    setButtonClicked((prev) => prev + 1);
+
+    // Timeout for button state reset after 250ms
     setTimeout(() => {
       newActiveButtons[index] = false;
       setActiveButtons([...newActiveButtons]);
     }, 250);
 
-    const notes = ["C4", "D4", "E4", "F4", "G4", "A4", "B4", "C5"]; 
+    const notes = ["C4", "D4", "E4", "F4", "G4", "A4", "B4", "C5"];
     const synth = new Tone.Synth().toDestination();
     synth.triggerAttackRelease(notes[index], "8n");
+
+    if (buttonClicked === 7) {
+      // If all 8 buttons are clicked, check if it's within 10 seconds
+      const timeTaken = Date.now() - startTime!;
+      if (timeTaken <= 10000) {
+        setCompletedInTime(true);
+      }
+    }
   };
 
   // Remove '/en' from the pathname
   const normalizedPathname = pathname.replace(/\/(en|vi)\b/g, "");
+
+  useEffect(() => {
+    // If all buttons are clicked within 10 seconds, set completedInTime to true
+    if (buttonClicked === 8 && !completedInTime && !isReset) {
+      const timeTaken = Date.now() - startTime!;
+      if (timeTaken <= 10000) {
+        setCompletedInTime(true);
+      }
+    }
+  }, [buttonClicked, startTime, completedInTime, isReset]);
 
   return (
     <div className="flex flex-col items-center mx-auto relative h-full">
@@ -230,6 +270,13 @@ export default function Sidebar() {
           </a>
         </p>
       </div>
+
+      {/* Display completion status */}
+      {completedInTime && (
+        <p className="text-green-500 mt-4">
+          You completed all buttons within 10 seconds!
+        </p>
+      )}
     </div>
   );
 }
