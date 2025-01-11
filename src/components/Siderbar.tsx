@@ -8,11 +8,13 @@ import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
 import { useState } from "react";
 import LinkAccountButton from "./LinkAccountButton";
+import * as Tone from "tone";
 
 export default function Sidebar() {
   const [activeButtons, setActiveButtons] = useState(Array(8).fill(false));
   const pathname = usePathname();
   const t = useTranslations("SiderBar");
+
   const handleClick = (index: any) => {
     const newActiveButtons = [...activeButtons];
     newActiveButtons[index] = true;
@@ -22,6 +24,10 @@ export default function Sidebar() {
       newActiveButtons[index] = false;
       setActiveButtons([...newActiveButtons]);
     }, 250);
+
+    const notes = ["C4", "D4", "E4", "F4", "G4", "A4", "B4", "C5"]; 
+    const synth = new Tone.Synth().toDestination();
+    synth.triggerAttackRelease(notes[index], "8n");
   };
 
   // Remove '/en' from the pathname
