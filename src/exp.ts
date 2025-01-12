@@ -1,17 +1,17 @@
 export const experiences = [
   {
     timePeriod: "9/2023 - 9/2024",
-    position: "Full-stack Developer",
+    position: "Full Stack Developer",
     company: "FPT Software",
     link: "https://www.linkedin.com/company/fpt-software",
     description: [
-      "Developed and maintained internal company web applications to manage users and employees.",
+      "Developed and maintained internal company web applications (Knowledge Base System, Applicant Tracking System) to manage users and employees.",
       "Received, designed, and confirmed requirements before implement the features.",
       "Communicated, confirmed and integrated third-party APIs for various projects.",
       "Wrote guidelines for feature code and usage guide other project team members.",
       "Set up and managed CI/CD system based on project requirements.",
       "Handled system errors and managed server configurations.",
-      "Using Jira for task management, tracking and managing personal tasks, and collaborating with the team to ensure timely delivery of features.",
+      "Using Jira for task management, tracking and managing personal tasks, and collaborating with the team to ensure timely delivery of projects.",
     ],
     skills: [
       "TypeScript",
@@ -20,7 +20,7 @@ export const experiences = [
       "Redux",
       "Ant Design",
       "SCSS",
-      "mySQL",
+      "MySQL",
       "AWS",
       "Azure",
       "Docker",
@@ -30,16 +30,23 @@ export const experiences = [
   },
   {
     timePeriod: "6/2023 - 8/2023",
-    position: "Web Developer Intern",
-    company: "FPT Innovation",
-    link: "https://www.linkedin.com/company/fptsoftwareinnovation",
+    position: "Full Stack Developer",
+    company: "FPT Software",
+    link: "https://www.linkedin.com/company/fpt-software",
     description: [
       "Developed RESTful APIs using .NET Core.",
       "Implemented backend authentication and authorization with OAuth2.",
       "Built responsive UI components with React.js.",
-      "Configure and deploy web application with Jenkins for CI/CD",
+      "Configure and deploy web application with Azure DevOps for CI/CD",
       "Worked as a developer in a Scrum team, participating in sprint planning, daily standups, and reviews to deliver features on time.",
     ],
-    skills: ["TypeScript", "React.js", "ASP.NET", "mySQL", "Jenkins", "Azure"],
+    skills: [
+      "TypeScript",
+      "React.js",
+      "ASP.NET",
+      "Less",
+      "MySQL",
+      "Azure DevOps",
+    ],
   },
 ];
