@@ -30,6 +30,7 @@ export default function Page() {
     <div>
       <h1 className="text-[2.5rem] font-semibold">PinCap</h1>
       <p className="mt-5">{t("description_1")}</p>
+      <p className="mt-5">{t("description_0")}</p>
       <div className="mt-5">
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse">
@@ -91,7 +92,93 @@ export default function Page() {
         <div className="flex-grow border-t border-stone-600"></div>
       </div>
 
-      <h2 className="text-xl font-semibold">Purpose of the project</h2>
+      <h2 className="text-2xl font-semibold">{t("purpose")}</h2>
+
+      <p className="mt-5">{t("description_2")}</p>
+      <p className="mt-5">{t("description_3")}</p>
+      <p className="mt-5">{t("description_4")}</p>
+      <div className="w-full mt-5">
+        <Image
+          className="zoom-image"
+          src={"/images/projects/pincap/img3.png"}
+          alt="PinCap Project"
+          width={1200}
+          height={800}
+          layout="responsive"
+          quality={100}
+        />
+      </div>
+      <div className="relative flex py-20 items-center">
+        <div className="flex-grow border-t border-stone-600"></div>
+      </div>
+
+      <h2 className="text-2xl font-semibold">{t("process")}</h2>
+
+      <div className=" md:flex gap-10 justify-center items-center">
+        <div className="md:w-1/2">
+          <p className="mt-5">{t("process_1")}</p>
+        </div>
+        <div className="md:w-1/2 mt-5">
+          <Image
+            className="zoom-image"
+            src={"/images/projects/pincap/img2.png"}
+            alt="PinCap Project"
+            width={1200}
+            height={800}
+            layout="responsive"
+            quality={100}
+          />
+        </div>
+      </div>
+
+      <div className=" md:flex flex-row-reverse gap-10 justify-center items-center">
+        <div className="md:w-1/2">
+          <p className="mt-5">{t("process_2")}</p>
+        </div>
+        <div className="md:w-1/2 mt-5">
+          <Image
+            className="zoom-image"
+            src={"/images/projects/pincap/img5.png"}
+            alt="PinCap Project"
+            width={1200}
+            height={800}
+            layout="responsive"
+            quality={100}
+          />
+        </div>
+      </div>
+
+      <div className=" md:flex gap-10 justify-center items-center ">
+        <div className="md:w-1/2">
+          <p className="mt-5">{t("process_3")}</p>
+        </div>
+        <div className="md:w-1/2 mt-5">
+          <Image
+            className="zoom-image"
+            src={"/images/projects/pincap/img6.png"}
+            alt="PinCap Project"
+            width={1200}
+            height={800}
+            layout="responsive"
+            quality={100}
+          />
+        </div>
+      </div>
+
+      <p className="mt-10">{t("process_4")}</p>
+
+      <div className="relative flex py-20 items-center">
+        <div className="flex-grow border-t border-stone-600"></div>
+      </div>
+
+
+      <h2 className="text-2xl font-semibold">{t("lesson")}</h2>
+
+      <p className="mt-5">{t("lesson_1")}</p>
+      <p className="mt-5">{t("lesson_2")}</p>
+      <p className="mt-5">{t("lesson_3")}</p>
+
+      <div className="mb-20"></div>
     </div>
   );
 }

@@ -272,11 +272,11 @@ export default function Sidebar() {
       </div>
 
       {/* Display completion status */}
-      {completedInTime && (
+      {/* {completedInTime && (
         <p className="text-green-500 mt-4">
           You completed all buttons within 10 seconds!
         </p>
-      )}
+      )} */}
     </div>
   );
 }

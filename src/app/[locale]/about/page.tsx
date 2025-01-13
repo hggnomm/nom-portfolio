@@ -64,16 +64,6 @@ export default function About() {
           <ul className="list-disc space-y-4 pl-6">
             <li>{t("content_6")}</li>
             <li>{t("content_7")} </li>
-            <li>
-              {t("content_8")}{" "}
-              <Link
-                className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
-                href="/blogs"
-              >
-                {t("content_9")}
-              </Link>{" "}
-              {t("content_10")}
-            </li>
           </ul>
         </div>
       </div>
