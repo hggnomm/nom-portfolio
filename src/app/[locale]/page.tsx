@@ -91,7 +91,7 @@ export default function HomePage() {
           href="/resume/namtran_cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline tracking-wide float-right text-lg"
+          className="underline tracking-wide float-right text-lg mb-4"
           variants={childVariants}
         >
           Get My Resumse
