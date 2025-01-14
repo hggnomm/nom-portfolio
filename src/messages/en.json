@@ -10,7 +10,21 @@
     "purpose": "Purpose of the project"
   },
   "PinCap": {
-    "description_1": "PinCap is a project is being implemented during the study period at VKU. This project is carefully prepared and has a long-term orientation for the goal of defending the graduation thesis by the end of 2025."
+    "lesson_3": "Moreover, I found that my self-learning, communication and teamwork skills were also better from solving new challenges with my  a teammate named Tan, a friend who has journeyed with me on the path to becoming an information technology engineer.",
+    "lesson_2": "I successfully initiated and built the system from scratch, encompassing tasks such as design system, coding, deployment, testing, domain hosting, utilizing cloud computing, training AI models, and implementing optimized UI/UX designs created by myself.",
+    "lesson_1": "From this project, my cloud development skills were greatly improved as I'm now confident to develop a cloud architecture by myself. I think this was an excellent opportunity for me to get my hand dirty with the cloud platform, and from here, I would be able to learn more about cloud technology and improve what I already knew.",
+    "process_4": "The most challenging of all is the process of training an AI model using CNNs for image analysis. I found myself spending most of my time reading documentation, referring to StackOverflow, and watching tutorials on YouTube to understand how deep learning algorithms work, as well as popular frameworks like TensorFlow and PyTorch. Additionally, I learned about optimizing hyperparameters for training the model and processing input data, including techniques like data augmentation to enhance model performance and reduce overfitting.",
+    "process_3": "Additionally, we implemented containerization with Docker on the server, enabling more flexible service management and deployment. This significantly improved build and testing efficiency. The system was also integrated with CI/CD pipelines to automate testing, deployment, and ensure the codebase is continuously updated without requiring manual intervention from developers.",
+    "process_2": "Next, we set up a RESTful web API using a microservices architecture to ensure easier task allocation and better modularization. During development, we implemented components such as repository patterns, services, and models while adopting security measures like password hashing and integrating OAuth2 JWT for authentication management. To further enhance system security, we configured IAM (Identity and Access Management) directly within the codebase instead of using static access keys, minimizing potential risks related to key exposure.",
+    "process_1": "Although the project may seem simple at first listen, it actually requires more time and effort to execute. We started by researching major platforms such as Pinterest, CapCut, Unsplash... Based on this analysis, we identified and defined the essential features required for implementation. To optimize the system, we decided to utilize SaaS solutions like AWS (Elastic Compute Cloud, Simple Storage Service), Mailchimp, Momo, and integrate CI/CD pipelines, like as a real-world project.",
+    "description_4": "Although the project is not yet fully complete to showcase all the exciting features described, we have successfully completed 40% of the work with a team of just two people. We are committed to achieving over 90% of the project as per the original design by the end of 2025, meeting all outlined requirements. We would greatly appreciate it if you could visit our website and share your thoughts on our personal project. Your feedback will be a great motivation for us to grow and improve further.",
+    "description_3": "Not limited to the standard features commonly available like other platforms, PinCap takes a step further by integrating advanced AI capabilities. These include AI-powered image and video generation, a chatbot system to assist users with platform-related features, and the application of Convolutional Neural Networks (CNNs) to analyze and filter out images that violate the platform's standards. This ensures the creation of a healthy, vibrant, and highly creative community.",
+    "description_2": "The purpose of this project is to develop a platform that serves as a central hub for users to collect, organize, and share multimedia content, such as images, videos, and other digital files. Designed for both personal and collaborative use, the platform aims to inspire creativity, improve organization, and connections among users through a visually engaging and intuitive interface.",
+    "description_1": "PinCap is a project is being implemented during the study period at VKU. This project is carefully prepared and has a long-term orientation for the goal of defending the graduation thesis by the end of 2025.",
+    "description_0": "My project team consists of 2 people, I am the team leader primarily responsible for designing in Figma and implementing the project interface, including system design analysis, creating wireframes, designing prototypes, ensuring good UI/UX, and coming up with ideas for unique designs.",
+    "process": "The Process",
+    "lesson": "Lesson learned",
+    "purpose": "Purpose of the project"
   },
   "Projects": {
     "title_2": "These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.",
@@ -25,9 +39,6 @@
     "title": "My experiences"
   },
   "About": {
-    "content_10": "hehe.",
-    "content_9": "here",
-    "content_8": "Oh, this place is where I write down my various articles. If you're interested, feel free to drop by",
     "content_7": "I have many hobbies such as watching movies, listening to music, playing piano, playing games, meeting friends... and especially drinking 😄!!",
     "content_6": "Look at the screen all day without entertainment is not good, so I always maintain a balance between work and relax.",
     "content_5": "Even though I am a software engineer, I always maintain my own identity, show my own personality and make my mark in both work and life..",
