@@ -1,5 +1,3 @@
-"use client";
-
 import LanguageSwitch from "@/components/LanguageSwitch";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import { Link } from "@/i18n/routing";
