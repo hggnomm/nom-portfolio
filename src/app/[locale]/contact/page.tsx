@@ -19,7 +19,7 @@ export default function Contact() {
         {t("message")}
         <div className="flex flex-wrap items-center mt-2 space-x-4">
           <a
-            href="https://www.facebook.com/hggnomm"
+            href="https://www.facebook.com/profile.php?id=61571633777853"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"

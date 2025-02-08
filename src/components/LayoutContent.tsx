@@ -68,7 +68,7 @@ export default function LayoutContent({ children }: LayoutContentProps) {
                 altText="Github"
               />
               <LinkAccountButton
-                url="https://www.facebook.com/hggnomm"
+                url="https://www.facebook.com/profile.php?id=61571633777853"
                 iconSrc="/images/facebook.svg"
                 iconSrcHover="/images/facebook-color.svg"
                 altText="Facebook"
