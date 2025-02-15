@@ -43,7 +43,7 @@ export default function Projects() {
                     width={1000}
                     height={560}
                     objectFit="cover"
-                    className="h-[173px] rounded-sm transform transition-transform duration-500 border border-stone-200"
+                    className="min-h-[173px] rounded-sm transform transition-transform duration-500 border border-stone-200"
                   />
                 </motion.div>
                 <motion.div
