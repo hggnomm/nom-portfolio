@@ -90,7 +90,7 @@ export default function Sidebar() {
               className="hover:scale-105 transition-transform"
             />
           </div>
-          <Image
+          {/* <Image
             src="/curved-arrow.svg"
             alt="Curved Arrow"
             className=" md:absolute top-4 w-8 h-8 lg:w-12 lg:h-12 transform md:rotate-[-135deg]  
@@ -98,7 +98,7 @@ export default function Sidebar() {
             transition-transform duration-500 ease-in-out"
             width={40}
             height={40}
-          />
+          /> */}
           <p className="text-primary-color text-base md:text-lg xl:text-2xl font-semibold hover:scale-105 transition-transform text-center">
             Nam. Tran
           </p>
