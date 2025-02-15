@@ -17,6 +17,8 @@ const stacks = [
   "mySQL",
   "AWS",
   "Docker",
+  "Nginx",
+  "Github Action",
 ];
 
 export default function Page() {
@@ -64,7 +66,7 @@ export default function Page() {
                 </td>
                 <td className="py-4 align-top flex flex-col">
                   <a
-                    href=""
+                    href="http://3.105.157.150/"
                     className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
                   >
                     View site
@@ -171,6 +173,31 @@ export default function Page() {
         <div className="flex-grow border-t border-stone-600"></div>
       </div>
 
+      <div className=" md:flex flex-row-reverse gap-10 justify-center items-start">
+        <div className="md:w-1/2">
+          <p className="mt-5">{t("process_5_1")}</p>
+          <ul className="list-decimal pl-5 mt-5">
+            <li>{t("process_5_2")}</li>
+            <li>{t("process_5_3")}</li>
+          </ul>
+          <p className="mt-5">{t("process_5_4")}</p>
+        </div>
+        <div className="md:w-1/2 mt-5">
+          <Image
+            className="zoom-image"
+            src={"/images/projects/pincap/img7.png"}
+            alt="PinCap Project"
+            width={1200}
+            height={800}
+            layout="responsive"
+            quality={100}
+          />
+        </div>
+      </div>
+
+      <div className="relative flex py-20 items-center">
+        <div className="flex-grow border-t border-stone-600"></div>
+      </div>
 
       <h2 className="text-2xl font-semibold">{t("lesson")}</h2>
 
