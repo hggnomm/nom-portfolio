@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    timePeriod: "9/2023 - 9/2024",
+    timePeriod: "3/2023 - 12/2024",
     position: "Full Stack Developer",
     company: "FPT Software",
     link: "https://www.linkedin.com/company/fpt-software",
@@ -29,7 +29,7 @@ export const experiences = [
     ],
   },
   {
-    timePeriod: "6/2023 - 8/2023",
+    timePeriod: "1/2023 - 3/2023",
     position: "Full Stack Developer",
     company: "FPT Software",
     link: "https://www.linkedin.com/company/fpt-software",
