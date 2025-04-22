@@ -1,6 +1,27 @@
 export const experiences = [
   {
-    timePeriod: "3/2023 - 12/2024",
+    timePeriod: "3/2025 - Present",
+    position: "Front End Developer",
+    company: "Nevel Tech",
+    link: "https://www.linkedin.com/company/neveltech",
+    description: [
+      "Built responsive, cross-browser user interfaces for landing pages and web platforms.",
+      "Assisted with frontend performance optimizations (lazy loading, code splitting, etc.).",
+      "Contributed to UI/UX enhancements across multiple projects.",
+      "Collaborated in agile teams through sprints, standups, and reviews."
+    ],    
+    skills: [
+      "TypeScript",
+      "Next.js 15",
+      "React 19",
+      "Shadcn",
+      "Zustand",
+      "Tailwind CSS 4",
+      "React Hook Form",
+    ],
+  },
+  {
+    timePeriod: "8/2023 - 12/2024",
     position: "Full Stack Developer",
     company: "FPT Software",
     link: "https://www.linkedin.com/company/fpt-software",
@@ -29,7 +50,7 @@ export const experiences = [
     ],
   },
   {
-    timePeriod: "1/2023 - 3/2023",
+    timePeriod: "5/2023 - 7/2023",
     position: "Full Stack Developer",
     company: "FPT Software",
     link: "https://www.linkedin.com/company/fpt-software",
