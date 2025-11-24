@@ -26,6 +26,7 @@
     "description_2": "The purpose of this project is to develop a platform that serves as a central hub for users to collect, organize, and share multimedia content, such as images, videos, and other digital files. Designed for both personal and collaborative use, the platform aims to inspire creativity, improve organization, and connections among users through a visually engaging and intuitive interface.",
     "description_1": "PinCap is a project is being implemented during the study period at VKU. This project is carefully prepared and has a long-term orientation for the goal of defending the graduation thesis by the end of 2025.",
     "description_0": "My project team consists of 2 people, I am the team leader primarily responsible for designing in Figma and implementing the project interface, including system design analysis, creating wireframes, designing prototypes, ensuring good UI/UX, and coming up with ideas for unique designs.",
+    "description_5": "PinCap is already live at https://pin-cap-fe.vercel.app/ and integrates the Facebook Graph API to sync data from both personal and business Instagram accounts, keeping the content library aligned with what the team publishes on social media.",
     "process": "The Process",
     "lesson": "Lesson learned",
     "purpose": "Purpose of the project"

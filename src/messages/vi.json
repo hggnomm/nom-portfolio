@@ -26,6 +26,7 @@
     "description_2": "Mục đích của dự án này là phát triển một nền tảng đóng vai trò là trung tâm để người dùng thu thập, sắp xếp và chia sẻ nội dung đa phương tiện, chẳng hạn như hình ảnh, video và các tệp liên quan khác. Được thiết kế cho mục đích sử dụng cá nhân và cộng tác, nền tảng này nhằm mục đích truyền cảm hứng sáng tạo, cải thiện tổ chức và kết nối giữa những người dùng thông qua giao diện trực quan và hấp dẫn.",
     "description_1": "PinCap là một dự án đang được thực hiện trong thời gian học tập tại VKU. Dự án này được chuẩn bị một cách kỹ lưỡng và có định hướng dài hạn, hướng đến mục tiêu bảo vệ luận văn tốt nghiệp vào cuối năm 2025.",
     "description_0": "Nhóm dự án bao gồm 2 người, tôi là nhóm trưởng chịu trách nhiệm chính trong việc thiết kế Figma và triển khai dự án cho phần giao diện của hệ thống, bao gồm phân tích thiết kế hệ thống, tạo wireframes, thiết kế prototype, đảm bảo UX tốt, và lên ý tưởng cho những thiết kế độc đáo.",
+    "description_5": "PinCap hiện đã chạy tại https://pin-cap-fe.vercel.app/ và tích hợp Facebook Graph API để đồng bộ dữ liệu từ cả tài khoản Instagram cá nhân lẫn doanh nghiệp, giúp kho nội dung luôn thống nhất với những gì nhóm đăng tải trên mạng xã hội.",
     "process": "Quá trình",
     "lesson": "Bài học rút ra",
     "purpose": "Mục đích của dự án"

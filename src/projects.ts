@@ -5,7 +5,7 @@ export const projects = [
     timeline: "10/2023 - Current",
     image: "/images/projects/pincap/preview.png",
     description:
-      "AI-powered image creation, smart chatbot integration, and the use CNNs for image analysis. It serves the community by providing Media storage, management, and creative.",
+      "Live at https://pin-cap-fe.vercel.app/ — PinCap blends AI-powered image creation, a smart chatbot, CNN-based moderation, and a Facebook Graph API bridge that syncs Instagram (personal or business) content into one media hub.",
     stacks: [
       "TypeScript",
       "React.js",

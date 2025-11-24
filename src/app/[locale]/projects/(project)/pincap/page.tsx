@@ -99,6 +99,7 @@ export default function Page() {
       <p className="mt-5">{t("description_2")}</p>
       <p className="mt-5">{t("description_3")}</p>
       <p className="mt-5">{t("description_4")}</p>
+      <p className="mt-5">{t("description_5")}</p>
       <div className="w-full mt-5">
         <Image
           className="zoom-image"
