@@ -1,9 +1,9 @@
 export const experiences = [
   {
-    timePeriod: "3/2025 - Present",
+    timePeriod: "1/2025 - Current",
     position: "Front End Developer",
-    company: "Nevel Tech",
-    link: "https://www.linkedin.com/company/neveltech",
+    company: "Freelancer",
+    link: "https://www.linkedin.com/in/hggnomm/",
     description: [
       "Built responsive, cross-browser user interfaces for landing pages and web platforms.",
       "Assisted with frontend performance optimizations (lazy loading, code splitting, etc.).",
