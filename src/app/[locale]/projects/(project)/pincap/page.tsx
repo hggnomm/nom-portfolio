@@ -66,7 +66,7 @@ export default function Page() {
                 </td>
                 <td className="py-4 align-top flex flex-col">
                   <a
-                    href="http://3.105.157.150/"
+                    href="https://pin-cap-fe.vercel.app"
                     className="text-blue-600 dark:text-orange-500 hover:text-blue-800 dark:hover:text-orange-700"
                   >
                     View site
