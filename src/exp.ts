@@ -1,5 +1,27 @@
 export const experiences = [
   {
+    timePeriod: "1/2026 - 5/2026",
+    position: "Full Stack Developer",
+    company: "IPELLIO",
+    link: "https://www.ipellio.com/",
+    description: [
+      "Communicated directly with Australian clients and cross-functional teams in an English-speaking environment to gather requirements and deliver web applications tailored to business needs.",
+      "Worked on legal and intellectual property platforms involving trademark analysis, brand verification, and multiple third-party API integrations.",
+      "Built reusable and scalable frontend systems for data-heavy legal platforms, focusing on intuitive user experiences, maintainability, and application performance."
+    ],
+    skills: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "AWS"
+    ],
+  },
+  {
     timePeriod: "1/2025 - Current",
     position: "Front End Developer",
     company: "Freelancer",
