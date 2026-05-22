@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="flex flex-col justify-center items-center gap-5">
           <Link
             href={"/"}
-            className="relative border-2 lg:border-4 border-primary-color rounded-full w-20 h-20 lg:w-24 lg:h-24 bg-[#A0A0A0] overflow-hidden cursor-pointer"
+            className="relative border-2 lg:border-4 border-primary-color rounded-full w-20 h-20 lg:w-24 lg:h-24 bg-red-500 overflow-hidden cursor-pointer"
           >
             <Image
               src="/images/avatartion.png"

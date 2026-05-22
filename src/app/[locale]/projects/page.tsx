@@ -17,6 +17,7 @@ export default function Projects() {
       <div className="w-full flex flex-col gap-5 mb-5 select-none">
         {projects.map((project) => (
           <motion.div
+            key={project.id}
             initial="hidden"
             animate="visible"
             variants={{
@@ -27,7 +28,6 @@ export default function Projects() {
           >
             <Link
               href={`/projects/${project.id}`}
-              key={project.id}
               className="flex p-3 border border-stone-300 dark:border-stone-600 justify-center items-start gap-6 rounded-sm cursor-pointer hover:bg-white dark:hover:bg-stone-900 hover:bg-opacity-20"
             >
               <div className="relative md:w-[65%] lg:w-1/2 w-1/2 overflow-hidden">
