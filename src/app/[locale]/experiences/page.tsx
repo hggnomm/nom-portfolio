@@ -109,6 +109,9 @@ export default function Experiences() {
                 {t("it")}
               </p>
               <p className="text-xs font-medium md:text-base">{t("school")}</p>
+              <p className="mt-1 text-xs font-medium md:text-base text-stone-600 dark:text-stone-400">
+                {t("graduation_thesis")}
+              </p>
             </div>
           </div>
         </div>

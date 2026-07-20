@@ -88,7 +88,7 @@ export default function HomePage() {
         </div>
 
         <motion.a
-          href="/resume/namtran_cv.pdf"
+          href="/resume/Nam_Tran_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="underline tracking-wide float-right text-lg mb-4"

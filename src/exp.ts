@@ -1,95 +1,157 @@
 export const experiences = [
   {
-    timePeriod: "1/2026 - 5/2026",
+    timePeriod: "1/2026 - Current",
+
     position: "Full Stack Developer",
+
     company: "IPELLIO",
+
     link: "https://www.ipellio.com/",
+
     description: [
-      "Communicated directly with Australian clients and cross-functional teams in an English-speaking environment to gather requirements and deliver web applications tailored to business needs.",
-      "Worked on legal and intellectual property platforms involving trademark analysis, brand verification, and multiple third-party API integrations.",
-      "Built reusable and scalable frontend systems for data-heavy legal platforms, focusing on intuitive user experiences, maintainability, and application performance."
+      "Gathered requirements and delivered tailored web applications for Australian clients in an English-speaking environment.",
+
+      "Developed data-heavy legal and intellectual property platforms involving trademark analysis and third-party API integrations.",
+
+      "Applied AI-assisted engineering practices to build scalable, high-performance frontend systems.",
     ],
+
     skills: [
       "Next.js",
+
       "React",
+
       "TypeScript",
+
       "Python",
+
       "FastAPI",
+
       "PostgreSQL",
+
       "Redis",
+
       "Docker",
-      "AWS"
-    ],
-  },
-  {
-    timePeriod: "1/2025 - Current",
-    position: "Front End Developer",
-    company: "Freelancer",
-    link: "https://www.linkedin.com/in/hggnomm/",
-    description: [
-      "Built responsive, cross-browser user interfaces for landing pages and web platforms.",
-      "Assisted with frontend performance optimizations (lazy loading, code splitting, etc.).",
-      "Contributed to UI/UX enhancements across multiple projects.",
-      "Collaborated in agile teams through sprints, standups, and reviews."
-    ],    
-    skills: [
-      "TypeScript",
-      "Next.js 15",
-      "React 19",
-      "Shadcn",
-      "Zustand",
-      "Tailwind CSS 4",
-      "React Hook Form",
-    ],
-  },
-  {
-    timePeriod: "8/2023 - 12/2024",
-    position: "Full Stack Developer",
-    company: "FPT Software",
-    link: "https://www.linkedin.com/company/fpt-software",
-    description: [
-      "Developed and maintained internal company web applications (Knowledge Base System, Applicant Tracking System) to manage users and employees.",
-      "Received, designed, and confirmed requirements before implement the features.",
-      "Communicated, confirmed and integrated third-party APIs for various projects.",
-      "Wrote guidelines for feature code and usage guide other project team members.",
-      "Set up and managed CI/CD system based on project requirements.",
-      "Handled system errors and managed server configurations.",
-      "Using Jira for task management, tracking and managing personal tasks, and collaborating with the team to ensure timely delivery of projects.",
-    ],
-    skills: [
-      "TypeScript",
-      "React.js",
-      "ASP.NET",
-      "Redux",
-      "Ant Design",
-      "SCSS",
-      "MySQL",
+
       "AWS",
-      "Azure",
-      "Docker",
-      "IIS",
-      "Jira",
+
+      "Cursor",
+
+      "Claude",
     ],
   },
+
   {
-    timePeriod: "5/2023 - 7/2023",
-    position: "Full Stack Developer",
-    company: "FPT Software",
-    link: "https://www.linkedin.com/company/fpt-software",
+    timePeriod: "1/2025 - 12/2025",
+
+    position: "Front End Developer",
+
+    company: "SISU Network",
+
+    link: "https://www.linkedin.com/company/sisu-network",
+
     description: [
-      "Developed RESTful APIs using .NET Core.",
-      "Implemented backend authentication and authorization with OAuth2.",
-      "Built responsive UI components with React.js.",
-      "Configure and deploy web application with Azure DevOps for CI/CD",
-      "Worked as a developer in a Scrum team, participating in sprint planning, daily standups, and reviews to deliver features on time.",
+      "Focused on building a highly scalable frontend architecture, designing modular and reusable component systems shared across web and desktop apps.",
+
+      "Engineered performance-driven desktop interfaces using React and Electron, integrating AI-powered indexing and summarization features.",
+
+      "Developed and shipped a high-performance browser extension with robust background data communication workflows.",
     ],
+
     skills: [
+      "React",
+
+      "Electron",
+
       "TypeScript",
-      "React.js",
-      "ASP.NET",
-      "Less",
+
+      "Tailwind CSS",
+
+      "Node.js",
+
+      "Browser Extensions",
+
+      "AI Tooling",
+
+      "Cursor",
+
+      "Claude",
+    ],
+  },
+
+  {
+    timePeriod: "6/2023 - 12/2024",
+
+    position: "Full Stack Developer",
+
+    company: "FPT Software",
+
+    link: "https://www.linkedin.com/company/fpt-software",
+
+    description: [
+      "Developed a Knowledge Base System with AI-powered search, increasing department onboarding and work efficiency by 70%.",
+
+      "Contributed to an Applicant Tracking System managing candidate communication and hundreds of monthly job postings.",
+
+      "Proposed key UI/UX improvements and participated in building CI/CD deployment pipelines.",
+    ],
+
+    skills: [
+      "ASP.NET Core",
+
+      "TypeScript",
+
+      "React",
+
+      "Redux",
+
+      "Ant Design",
+
       "MySQL",
+
+      "AWS",
+
+      "Azure",
+
+      "Docker",
+
+      "IIS",
+    ],
+  },
+
+  {
+    timePeriod: "1/2023 - 5/2023",
+
+    position: "Full Stack Developer Intern",
+
+    company: "FPT Software",
+
+    link: "https://www.linkedin.com/company/fpt-software",
+
+    description: [
+      "Assisted in UI implementation and usability optimization for the internal Applicant Tracking System.",
+
+      "Researched and built a basic CI/CD pipeline for a RESTful API project to optimize deployment workflows.",
+
+      "Collaborated closely with cross-functional teams to ensure timely product delivery.",
+    ],
+
+    skills: [
+      "ASP.NET Core",
+
+      "TypeScript",
+
+      "React",
+
+      "Redux",
+
+      "Less",
+
+      "MySQL",
+
       "Azure DevOps",
+
+      "IIS",
     ],
   },
 ];
