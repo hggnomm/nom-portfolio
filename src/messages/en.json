@@ -51,7 +51,7 @@
     "content_4": "I am still trying to better myself. Whatever I know, I share wholeheartedly, hoping to be of help to others in some way.",
     "content_3": "Luckily, in my second year of university, I found an internship to learn and improve my skills.",
     "content_2": "I'm also an IT student majoring in computer science at VKU at Da Nang City.",
-    "content_1": "Currently, I am a Front End Engineer, and I am also trying to become a Blogger.",
+    "content_1": "Currently, I am a Full Stack Developer, and I am also trying to become a Blogger.",
     "title_2": "Thank you for visiting my page! I will provide a brief summary of myself below.",
     "title": "Who am i ?"
   },
@@ -71,10 +71,9 @@
     "projects": "Projects"
   },
   "HomePage": {
-    "content_fe": "Front-end engineer.",
-    "content_3": "With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and suitability for all users.",
-    "content_2": "My areas of interest include web development, cloud computing, problem-solving, and I have a strong focus on the role of a",
-    "content_1": "I'm currently a software engineer.",
+    "content_3": "Young, eager to learn, and ready to tackle complex challenges with cross-functional and international teams.",
+    "content_2": "Grounded in core engineering principles and design patterns, making me highly flexible across different programming languages and tech stacks.",
+    "content_1": "Full Stack Developer with 3 years of experience building web applications.",
     "title_1": "Hello,",
     "title_2": "My name is Nam!"
   }

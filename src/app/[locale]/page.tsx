@@ -74,10 +74,7 @@ export default function HomePage() {
             variants={childVariants}
             className="mb-4 text-xs md:text-base"
           >
-            {t("content_2")}{" "}
-            <span className="font-semibold text-main-black dark:text-primary-color">
-              {t("content_fe")}
-            </span>
+            {t("content_2")}
           </motion.p>
           <motion.p
             variants={childVariants}

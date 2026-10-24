@@ -1,43 +1,55 @@
-export const experiences = [
+export const experiences: {
+  timePeriod: string;
+  position: string;
+  company: string;
+  location?: string;
+  link: string;
+  description: string[];
+  skills: string[];
+}[] = [
   {
-    timePeriod: "1/2026 - Current",
+    timePeriod: "1/2026 – 7/2026",
 
     position: "Full Stack Developer",
 
     company: "IPELLIO",
 
+    location: "Da Nang, Vietnam",
+
     link: "https://www.ipellio.com/",
 
     description: [
-      "Gathered requirements and delivered tailored web applications for Australian clients in an English-speaking environment.",
+      "Developed a data-intensive legal/IP platform using PHP (Laravel) backend and ReactJS/Next.js frontend.",
 
-      "Developed data-heavy legal and intellectual property platforms involving trademark analysis and third-party API integrations.",
+      "Built modular, reusable UI components from Figma using ReactJS, Next.js, and Tailwind CSS, consuming internal REST endpoints with caching and lazy loading.",
 
-      "Applied AI-assisted engineering practices to build scalable, high-performance frontend systems.",
+      "Engineered modular backend systems using Repository & Service Layer patterns within MVC to isolate business logic, enforce loose coupling, and ease maintenance.",
+
+      "Communicated directly with Australian clients and cross-functional teams in an English-speaking environment to get requirements.",
+
+      "Maintained deployment workflows via CI/CD pipelines with Docker and Git in an Agile/Scrum team.",
     ],
 
     skills: [
+      "Cursor",
+
+      "Claude",
+
       "Next.js",
 
       "React",
 
-      "TypeScript",
-
-      "Python",
-
-      "FastAPI",
+      "Laravel",
 
       "PostgreSQL",
-
-      "Redis",
 
       "Docker",
 
       "AWS",
 
-      "Cursor",
+      "Tailwind CSS",
 
-      "Claude",
+      "Ant Design",
     ],
   },
 

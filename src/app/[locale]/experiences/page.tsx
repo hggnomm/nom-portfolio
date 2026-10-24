@@ -34,6 +34,11 @@ export default function Experiences() {
               <p className="mb-2 text-sm text-stone-600 dark:text-stone-400">
                 {exp.timePeriod}
               </p>
+              {exp.location && (
+                <p className="mb-2 text-sm text-stone-600 dark:text-stone-400">
+                  {exp.location}
+                </p>
+              )}
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold">
