@@ -51,7 +51,7 @@
     "content_4": "Mình vẫn luôn cố gắng hoàn thiện bản thân. Bất cứ điều gì mình biết, đều chia sẻ hết lòng, hy vọng có thể giúp ích cho người khác theo cách nào đó.",
     "content_3": "Vào năm 2 đại học, mình đã may mắn tìm được một nơi thực tập để học hỏi, thử thách và trau dồi kỹ năng.",
     "content_2": "Mình cũng là một IT VKU-er với chuyên ngành khoa học máy tính tại Đà Nẵng.",
-    "content_1": "Hiện tại, mình là một Front End Engineer, và cũng đang cố gắng để trở thành một Blogger.",
+    "content_1": "Hiện tại, mình là một Full Stack Developer, và cũng đang cố gắng để trở thành một Blogger.",
     "title_2": "Cảm ơn vì đã ghé thăm trang này! Mình sẽ kể lại ngắn gọn về bản thân mình ở phía bên dưới.",
     "title": "Mình là ai?"
   },
@@ -71,10 +71,9 @@
     "projects": "Dự Án Riêng"
   },
   "HomePage": {
-    "content_fe": "Kỹ sư Front-end.",
-    "content_3": "Với sự chú trọng đến từng chi tiết. Mình tập trung để tạo ra các giải pháp đơn giản, hiệu quả, dễ bảo trì và phù hợp với mọi người dùng.",
-    "content_2": "Các lĩnh vực mình quan tâm và làm việc bao gồm phát triển ứng dụng web, dịch vụ đám mây, giải quyết vấn đề, và tập trung mạnh vào vai trò là một",
-    "content_1": "Mình hiện tại là một kỹ sư phần mềm.",
+    "content_3": "Trẻ, ham học hỏi và sẵn sàng giải quyết các bài toán phức tạp cùng các thành viên trong nhóm.",
+    "content_2": "Nền tảng vững từ các nguyên lý kỹ thuật cốt lõi và design pattern, giúp mình linh hoạt với nhiều ngôn ngữ lập trình và tech stack khác nhau.",
+    "content_1": "Full Stack Developer với 3 năm kinh nghiệm xây dựng ứng dụng web.",
     "title_1": "Xin chào,",
     "title_2": "Mình tên là Nam!"
   }
