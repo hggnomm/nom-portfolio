@@ -19,7 +19,7 @@ export const experiences: {
     link: "https://www.ipellio.com/",
 
     description: [
-      "Developed a data-intensive legal/IP platform using PHP (Laravel) backend and ReactJS/Next.js frontend.",
+      "Developed a data-intensive legal/IP platform using Python FastAPI backend and ReactJS/Next.js frontend.",
 
       "Built modular, reusable UI components from Figma using ReactJS, Next.js, and Tailwind CSS, consuming internal REST endpoints with caching and lazy loading.",
 
